@@ -1,0 +1,5 @@
+requests==2.31.0
+python-dotenv==1.0.0
+math-verify==0.7.0
+tqdm==4.67.1
+latex2sympy2_extended=1.10.1
