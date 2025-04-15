@@ -56,7 +56,6 @@ results/
 tmp/
 
 # Data
-data/*
-examples/*
-output/*
-
+data/
+example/
+output/
