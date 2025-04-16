@@ -14,22 +14,19 @@ from utils import read_data_file, format_prompt, ensure_math_delimiters
 
 load_dotenv()
 
-API_URL = "https://svrtt687-8080.asse.devtunnels.ms"
+API_URL = os.getenv("API_URL")
 API_KEY = os.getenv("API_KEY")
-MODEL = "gpt-3.5-turbo"
+MODEL = os.getenv("MODEL_NAME")
 DATA_FILE_PATH = "./data/multi_choice_data_THPT_10000.json"
 OUTPUT_FILE = "./output/verified_answers_THPT_10000.json"
 OUTPUT_FILE_UN = "./output/unverified_answers_THPT_10000.json"
 BATCH_SIZE = 16
 SAVE_EVERY_N_BATCHES = 64
 
-cookies = {
-        "tunnel_phishing_protection": "kind-river-2997tnq.asse",
-        ".Tunnels.Relay.WebForwarding.Cookies": "CfDJ8Cs4yarcs6pKkdu0hlKHsZtw0EyCUzK-6rSW0YxttG_BCGEgY1RmQjGYkt6E7PdgZ3MI7Y2ZOabSbm047I94ts_A3qCfeW8mZXWwSrKddlesFyRPEVtztUZFOCeaqf67EwLFlCEULjuesHqdN9b5j0kqMZSUlICjnCyZoz7zQHNhHmAU49jvT7J65lCJcvjEAqo37EX5ijeLKT0ijArOSu4Rw9jmyBr4hIzCr-nvUCL7uG_F9t_jLdhrBcTkhr-REJZic8KZSYdnO8ZIjE_8-MTbA_JDbpawgKF_x8upz_b3bixvT-jU17q1ufwhExzjPmi8I4eCxO6NuoKg72w8AjvtJNm4RfNheZ8ZeHDODPYBef6O8tovPZ1AF41XZ_DUxqygaY2QjbcsKuglA2FK4Q7Hr5Lib3JfM626ad0GB7s6RWh_wGbuFUdHFKKlLGw6KAr8wfzQyJFAJR-RzXXJz_BbErxHluNoeHLn4AicuUsY4sk7b9ljiheYkL_lW0nAxr-LPAiNZCUx0sIlu3atrUTeKyClZFxJ5YgZ50Ec0dQvuh1J3O0YgiGTEQwc4wn2Osa1uogGqpaaTJBFO_B8AlOMsaUOO3HRUxox0tSLoOec8yLrespeuW8FBEohw2rIySSVmjiYj7-_7f7lmXn9Th8YtB5iQQu9PH38NjR-1BQnQLarHo6OMpVoK_afQmtZxXZdsWjidkYRnM75KcLAJO6OG5tCoorT8pFLTyXJbbYPw9lXmmhH3OqFTRkpStrkdzkS3sK3lXmbpwYxsS1VaOrJqCXyF4AHWf51iiM8OkR7OOjYlmejXlUQ3Dxo4nfjFk9TPMMec1HzilXW3ZRaj6Rhe5RYC3zvNtx9p4R7vocOoCbkN0AFH1YJk9hSg7psaOeAH5reZB6KKlw0KOjPuyK38YVYuUSFtwsj0Tbbef-HbpJPokM_Pr671QnuKyucFCzJNlXkoj98cdIase7yvo91LryYSImERohGRl6UUJin0jTLE79m60zZzedJ6LLJuAoMgTWjldkVEWX314xNPeO0Y38t5Eqn7kvu5mWXUHnzFFYpO9aBY_x1VAsY7xBcT2HVpeqbAzAqVD_bkN9Zhs69xLCoYDBGujA82dYZphk6pkvSpZC3rbxoOPiAQwKBBc7XFgjbl_vl0G7pAlzoQVWkjKw6G97-m_Yw6CoGnN7ddKtE1frhY1y41qpQ7HaMRVLBYXgm_QtAXS-aatZw49UWwdFwCVrthVU5o83qWWDyFrejpTyn8_SVqJw55_ImRxVkltJKWQ1Poq6Ni7VDZKsIDGH0GUbxaGR8ygEfrLXwNAHUw_0fv8t6u3ApILOonrgxrT6oLDzpxTolY4sLlZzO7TIf-rgItHcwnOOjHN45tIuTvTcbma_369REU26Hofk4f-h31Ylk8uz2slq3uvNLLtqOwRf4xorAtQtCUrtTUH1OPh5QAtnfdagmGT0uYSoSwUDFwwMy7QjKLcEFtpw"
-    }
+cookies = json.loads(os.getenv("COOKIES"))
 
 @dataclass
-class LlamaCppSamplingSettings:
+class LLMSamplingSettings:
     def __init__(self):
         self.temperature: float = 0.5
         self.top_k: int = None
@@ -77,15 +74,18 @@ class LlamaCppSamplingSettings:
         """
         return self.__dict__
 
-class LlamaCppServerProvider:
+class LLMServerProvider:
     def __init__(self, server_address: str):
+        if not server_address:
+            raise ValueError("Server address cannot be empty.")
+
         self.server_address = server_address
         self.server_chat_completion_endpoint = (
             self.server_address + "/v1/chat/completions"
         )
 
-    def get_provider_default_settings(self) -> LlamaCppSamplingSettings:
-        return LlamaCppSamplingSettings()
+    def get_provider_default_settings(self) -> LLMSamplingSettings:
+        return LLMSamplingSettings()
 
     async def create_chat_completion(
         self,
@@ -93,13 +93,17 @@ class LlamaCppServerProvider:
         messages: List[Dict[str, str]],
         settings: Dict[Any, Any],
         cookies: Dict[str, str] = None,
+        API_KEY: str = None,
+        MODEL: str = "gpt-3.5-turbo" ,
     ):
         headers = {"Content-Type": "application/json"}
         if API_KEY:
             headers["Authorization"] = f"Bearer {API_KEY}"
 
         data = deepcopy(settings)
+
         data["model"] = MODEL
+            
         data["messages"] = messages
 
         data = self.prepare_generation_settings(data)
@@ -116,8 +120,6 @@ class LlamaCppServerProvider:
         if "samplers" in settings_dictionary:
             del settings_dictionary["samplers"]
         return settings_dictionary
-
-inference_engine = LlamaCppServerProvider(server_address=API_URL)
 
 def parse_llm_response(response_text):
     """Extract JSON from the LLM response handling complex nested structures and LaTeX"""
@@ -312,6 +314,8 @@ def verify_answer(response_json):
             config = [LatexExtractionConfig(), ExprExtractionConfig()]
         elif answer_type == "StringExtractionConfig":
             config = [StringExtractionConfig()]
+        elif answer_type == "MultiChoiceExtractionConfig":
+            config = [MultiChoiceExtractionConfig()]
         else:
             config = [LatexExtractionConfig(), ExprExtractionConfig()]
         
@@ -340,7 +344,7 @@ async def process_batch(batch_data, verified_answers, unverified_answers):
 
     async with aiohttp.ClientSession() as session:
         responses = await asyncio.gather(
-            *[inference_engine.create_chat_completion(session, [msg], LlamaCppSamplingSettings().as_dict(), cookies=cookies) for msg in batch], 
+            *[inference_engine.create_chat_completion(session, [msg], LlamaCppSamplingSettings().as_dict(), cookies=cookies, MODEL=MODEL, API_KEY=API_KEY) for msg in batch], 
             return_exceptions=True
         )
     
@@ -373,6 +377,8 @@ def save_results(verified_answers, unverified_answers):
     print(f"Saved {len(verified_answers)} verified answers and {len(unverified_answers)} unverified answers")
 
 async def main():
+    inference_engine = LLMServerProvider(server_address=API_URL)
+
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
     
     data_files = read_data_file(DATA_FILE_PATH)

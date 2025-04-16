@@ -37,7 +37,6 @@ def format_prompt(question, explanation):
 - Remove conclusion phrases (e.g., “Kết luận,” “Vì vậy,” “Do đó,” “Vậy”) at the start of sentences or paragraphs; merge multiple nearby conclusion phrases into a single concise statement.
 - Format the explanation's final answer within the `\\boxed{{...}}` environment using one of these structures:
   - "Đáp án cuối cùng là \\boxed{{...}}", "Đáp án đúng là \\boxed{{...}}", or "Đáp án là \\boxed{{...}}".
-  - For multiple-choice answers (e.g., Đáp án đúng là C), do not use \\boxed{{...}}.
 - Ensure the content inside `\\boxed{{...}}` follows Vietnamese formatting conventions (e.g., comma as decimal separator, period as thousands separator).
 
 **Key Guidelines:**
@@ -53,23 +52,25 @@ def format_prompt(question, explanation):
 - **Extraction Targets:**
   - **LatexExtractionConfig**: For LaTeX expressions (e.g., `\\sqrt{{2}}`), must be in a LaTeX environment.
   - **ExprExtractionConfig**: For plain mathematical expressions (e.g., `1/2`).
-  - **StringExtractionConfig**: For literal strings (e.g., `A`, `B`, `C`, `D`).
+  - **MultiChoiceExtractionConfig**: For multiple-choice answers (e.g., `A`, `B`, `C`, `D`).
+  - **StringExtractionConfig**: For literal strings.
 
 **Dataset Settings:**
 - Determine the gold answer format:
   - Simple numbers: Use `ExprExtractionConfig`.
   - LaTeX expressions: Use `LatexExtractionConfig`.
   - Floats: Match the specified precision.
-  - Multiple-choice options (A, B, C, D): Use `StringExtractionConfig`.
+  - Textual answers: Use `StringExtractionConfig`.
+  - Multiple-choice options (A, B, C, D): Use `MultiChoiceExtractionConfig`.
 
 **Output Format:**
 Return the result as a JSON object:
 
 ```json
 {{
-  "Explanation": "<Unchanged chain-of-thought reasoning with final answer in \\boxed{{}}> (If it is a multiple-choice answer, do not use `\\boxed{{...}}`.)",
+  "Explanation": "<Unchanged chain-of-thought reasoning with final answer in \\boxed{{}}>",
   "Answer": "<Extracted final answer>",
-  "Type": "<Extraction config: LatexExtractionConfig, ExprExtractionConfig, or StringExtractionConfig>"
+  "Type": "<Extraction config: LatexExtractionConfig, ExprExtractionConfig, MultiChoiceExtractionConfig or StringExtractionConfig>"
 }}
 ```
 
