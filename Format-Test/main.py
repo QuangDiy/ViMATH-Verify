@@ -8,7 +8,7 @@ from dataclasses import dataclass
 import re
 from dotenv import load_dotenv
 from math_verify import parse, verify
-from math_verify.parser import LatexExtractionConfig, StringExtractionConfig, ExprExtractionConfig
+from math_verify.parser import LatexExtractionConfig, StringExtractionConfig, ExprExtractionConfig, MultiChoiceExtractionConfig
 from tqdm import tqdm
 from utils import read_data_file, format_prompt, ensure_math_delimiters
 
@@ -17,9 +17,9 @@ load_dotenv()
 API_URL = os.getenv("API_URL")
 API_KEY = os.getenv("API_KEY")
 MODEL = os.getenv("MODEL_NAME")
-DATA_FILE_PATH = "./data/multi_choice_data_THPT_10000.json"
-OUTPUT_FILE = "./output/verified_answers_THPT_10000.json"
-OUTPUT_FILE_UN = "./output/unverified_answers_THPT_10000.json"
+DATA_FILE_PATH = "./data/THCS.json"
+OUTPUT_FILE = "./output/THCS.json"
+OUTPUT_FILE_UN = "./output/unverified_THCS.json"
 BATCH_SIZE = 16
 SAVE_EVERY_N_BATCHES = 64
 
@@ -292,11 +292,21 @@ def parse_llm_response(response_text):
         import traceback
         traceback.print_exc()
         return None
+
+def format_boxed(response_text: str) -> str:
+    if "boxed" in response_text:
+        response_text = re.sub(
+            r"(\\boxed\{)\s*([^}]+?)\s*(\})",  
+            r"\1 \2 \3",                       
+            response_text
+        )
+    
+    return response_text
         
 def verify_answer(response_json):
-    """Verify the answer using math_verify"""
+    """Verify the answer using math_verify, trying all extraction configs if the initial one fails"""
     if not response_json:
-        return False
+        return False, None
     
     try:
         answer = response_json.get("Answer")
@@ -304,14 +314,14 @@ def verify_answer(response_json):
         answer_type = response_json.get("Type")
         
         if not (answer and explanation and answer_type):
-            return False
+            return False, None
             
         answer = ensure_math_delimiters(answer)
         
         if answer_type == "LatexExtractionConfig":
             config = [LatexExtractionConfig(), ExprExtractionConfig()]
         elif answer_type == "ExprExtractionConfig":
-            config = [LatexExtractionConfig(), ExprExtractionConfig()]
+            config = [ExprExtractionConfig()]
         elif answer_type == "StringExtractionConfig":
             config = [StringExtractionConfig()]
         elif answer_type == "MultiChoiceExtractionConfig":
@@ -322,16 +332,41 @@ def verify_answer(response_json):
         gold = parse(answer, extraction_config=config)
         parsed_explanation = parse(explanation, extraction_config=config)
         
-        return verify(gold, parsed_explanation)
+        if verify(gold, parsed_explanation):
+            return True, answer_type
+        
+        config_types = [
+            ("LatexExtractionConfig", [LatexExtractionConfig(), ExprExtractionConfig()]),
+            ("ExprExtractionConfig", [ExprExtractionConfig()]),
+            ("StringExtractionConfig", [StringExtractionConfig()]),
+            ("MultiChoiceExtractionConfig", [MultiChoiceExtractionConfig()])
+        ]
+        
+        for type_name, config in config_types:
+            if type_name == answer_type:
+                continue 
+                
+            try:
+                gold = parse(format_boxed(answer), extraction_config=config)
+                parsed_explanation = parse(format_boxed(explanation), extraction_config=config)
+                
+                if verify(gold, parsed_explanation):
+                    print(f"Verification succeeded with alternative type: {type_name}")
+                    return True, type_name
+            except Exception as e:
+                print(f"Failed with {type_name}: {str(e)}")
+                continue
+        
+        return False, None
     except Exception as e:
         print(f"Error during verification: {str(e)}")
-        return False
+        return False, None
 
 async def process_batch(batch_data, verified_answers, unverified_answers):
     batch = []
     for item in batch_data:
-        question = item.get("Question_refine", item.get("Question", "ERROR"))
-        explanation = item.get("Explanation_refine", item.get("Explanation", "ERROR"))
+        question = item.get("Question", item.get("Question", "ERROR"))
+        explanation = item.get("Explanation", item.get("Explanation", "ERROR"))
         
         if not (question and explanation):
             continue
@@ -356,14 +391,24 @@ async def process_batch(batch_data, verified_answers, unverified_answers):
         if not response_json:
             continue
         
-        is_verified = verify_answer(response_json)
+        is_verified, verified_type = verify_answer(response_json)
+       
         response_json["Question"] = item.get("Question_refine", item.get("Question"))
         response_json["Original_Explanation"] = item.get("Explanation_refine", item.get("Explanation"))
         response_json["Grade"] = item.get("Grade", "")
-        respone_json["Source"] = item.get("Source", "")
-        response_json["Type"] = item.get("Type", "")
+        response_json["Source"] = item.get("Source", "")
+        response_json["Grade"] = item.get("Grade", "")
+        response_json["Difficulty Level"] = item.get("Difficulty Level", "")
+        response_json["Source"] = item.get("Source", "")
+        response_json["Response Type"] = item.get("Response Type", "")
+        response_json["Math Type"] = item.get("Math Type", "")
+        response_json["Answer Type"] = item.get("Answer Type", "")
+        response_json["Categories"] = item.get("Categories", "")
         
         if is_verified:
+            if verified_type and verified_type != response_json.get("Type"):
+                response_json["Original_Type"] = response_json.get("Type")
+                response_json["Type"] = verified_type
             verified_answers.append(response_json)
         else:
             unverified_answers.append(response_json)
@@ -377,15 +422,13 @@ def save_results(verified_answers, unverified_answers):
     print(f"Saved {len(verified_answers)} verified answers and {len(unverified_answers)} unverified answers")
 
 async def main():
-    
+
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
     
     data_files = read_data_file(DATA_FILE_PATH)
     if not data_files:
         print("No data to process")
         return
-    
-    data_files = data_files[:1000]  # Limit to 1000 items for testing
     
     verified_answers = []
     unverified_answers = []

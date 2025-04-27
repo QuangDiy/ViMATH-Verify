@@ -293,10 +293,10 @@ def lazy_expr_regex(
     regexes: list[tuple[str, int]] = []
 
     final_answer_prefixed_re = (
-        rf"(?i:final answer is)\:?\s*{expr_or_number}\.?\s?I hope"
+        rf"(?i:final answer is|Đáp án đúng là)\:?\s*{expr_or_number}\.?\s?I hope"
     )
     final_answer_prefixed_just_is = (
-        rf"(?i:final answer.{{0,100}}?)\s+is\:?{expr_or_number}"
+        rf"(?i:final answer.{{0,100}}?|Đáp án đúng là)\s+is\:?{expr_or_number}"
     )
     regexes.append((final_answer_prefixed_re, 0))
     regexes.append((final_answer_prefixed_just_is, 50))
@@ -800,6 +800,12 @@ def parse(
 
     try:
         target_res = get_extraction_regexes(extraction_config)
+        if "boxed" in pred:
+            pred = re.sub(
+                r"\\boxed\{\s*([^}]+?)\s*\}",  # find \\boxed{…}
+                r"\\boxed{ \1 }",               
+                pred
+            )
         return timeout(timeout_seconds=parsing_timeout)(extract_target_from_pred)(
             pred,
             target_res,
