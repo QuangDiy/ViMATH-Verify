@@ -8,29 +8,42 @@ from dataclasses import dataclass
 import re
 from dotenv import load_dotenv
 from math_verify import parse, verify
-from math_verify.parser import LatexExtractionConfig, StringExtractionConfig, ExprExtractionConfig
+from math_verify.parser import LatexExtractionConfig, StringExtractionConfig, ExprExtractionConfig, MultiChoiceExtractionConfig
 from tqdm import tqdm
 from utils import read_data_file, format_prompt, ensure_math_delimiters
+import time
+import logging
 
 load_dotenv()
+
+# Set up logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('api_errors.log'),
+        logging.StreamHandler()
+    ]
+)
 
 API_URL = os.getenv("API_URL")
 API_KEY = os.getenv("API_KEY")
 MODEL = os.getenv("MODEL_NAME")
-DATA_FILE_PATH = "./data/multi_choice_data_THPT_10000.json"
-OUTPUT_FILE = "./output/verified_answers_THPT_10000.json"
-OUTPUT_FILE_UN = "./output/unverified_answers_THPT_10000.json"
+DATA_FILE_PATH = "./data/multi_choice_data_10000.json"
+OUTPUT_FILE = "./output/multi_choice_data_10000.json"
+OUTPUT_FILE_UN = "./output/unverified_multi_choice_data_10000.json"
+EXPLANATION_FILE = "./output/explanation_multi_choice_data_10000.json"
 BATCH_SIZE = 16
-SAVE_EVERY_N_BATCHES = 64
+SAVE_EVERY_N_BATCHES = 20
 
 cookies = json.loads(os.getenv("COOKIES"))
 
 @dataclass
 class LLMSamplingSettings:
     def __init__(self):
-        self.temperature: float = 0.5
-        self.top_k: int = None
-        self.top_p: float = 0.95
+        self.temperature: float = 0.7
+        self.top_k: int = 20
+        self.top_p: float = 0.8
         self.min_p: float = None
         self.n_predict: int = -1
         self.n_keep: int = 0
@@ -94,7 +107,8 @@ class LLMServerProvider:
         settings: Dict[Any, Any],
         cookies: Dict[str, str] = None,
         API_KEY: str = None,
-        MODEL: str = "gpt-3.5-turbo" ,
+        MODEL: str = "gpt-3.5-turbo",
+        THINKING_MODE: bool = False,
     ):
         headers = {"Content-Type": "application/json"}
         if API_KEY:
@@ -106,10 +120,16 @@ class LLMServerProvider:
             
         data["messages"] = messages
 
+        if THINKING_MODE:
+            data['chat_template_kwargs'] = {"enable_thinking": True}
+        elif "Qwen3" in MODEL and THINKING_MODE == False:
+            data['chat_template_kwargs'] = {"enable_thinking": False}
+
         data = self.prepare_generation_settings(data)
+
         response = await session.request(
-            "POST", url=self.server_chat_completion_endpoint, headers=headers, json=data, cookies = cookies
-        )
+                    "POST", url=self.server_chat_completion_endpoint, headers=headers, json=data, cookies=cookies
+            )
         return_data = await response.json()
         return return_data["choices"][0]["message"]["content"]
 
@@ -164,7 +184,7 @@ def parse_llm_response(response_text):
                         print(f"Regex extraction failed: {e}")
         
         # Second attempt: Try to extract JSON object using more robust pattern matching
-        json_pattern = re.compile(r'\{\s*"Explanation"\s*:\s*"((?:[^"\\]|\\.)*)"\s*,\s*"Answer"\s*:\s*"((?:[^"\\]|\\.)*)"\s*,\s*"Type"\s*:\s*"((?:[^"\\]|\\.)*)"')
+        json_pattern = re.compile(r'\{\s*"Explanation"\s*:\s*"((?:[^"\\]|\\.)*)"\s*,\s*"Answer"\s*:\s*"((?:[^"\\]|\\.)*)"\s*,\s*"(?:Type|Config)"\s*:\s*"((?:[^"\\]|\\.)*)"')
         match = json_pattern.search(response_text)
         if match:
             cleaned_json = {
@@ -250,7 +270,7 @@ def parse_llm_response(response_text):
                     
         # If we still can't parse, print detailed debug info
         print(f"Could not parse response. JSON decode error.")
-        print(f"Response preview: {response_text[:200]}...")
+        print(f"Response preview: {response_text}")
         
         # Last resort - just extract the raw text for each field if they appear in plain text
         if "Explanation:" in response_text or "Answer:" in response_text:
@@ -292,28 +312,37 @@ def parse_llm_response(response_text):
         import traceback
         traceback.print_exc()
         return None
+
+def format_boxed(response_text: str) -> str:
+    if "boxed" in response_text:
+        response_text = re.sub(
+            r"(\\boxed\{)\s*([^}]+?)\s*(\})",  
+            r"\1 \2 \3",                       
+            response_text
+        )
+    return response_text
         
 def verify_answer(response_json):
-    """Verify the answer using math_verify"""
+    """Verify the answer using math_verify, trying all extraction configs if the initial one fails"""
     if not response_json:
-        return False
+        return False, None
     
     try:
         answer = response_json.get("Answer")
         explanation = response_json.get("Explanation")
         answer_type = response_json.get("Type")
-        
+        # print(answer_type, answer, explanation)
         if not (answer and explanation and answer_type):
-            return False
+            return False, None
             
         answer = ensure_math_delimiters(answer)
         
         if answer_type == "LatexExtractionConfig":
             config = [LatexExtractionConfig(), ExprExtractionConfig()]
         elif answer_type == "ExprExtractionConfig":
-            config = [LatexExtractionConfig(), ExprExtractionConfig()]
-        elif answer_type == "StringExtractionConfig":
-            config = [StringExtractionConfig()]
+            config = [ExprExtractionConfig()]
+        # elif answer_type == "StringExtractionConfig":
+        #     config = [StringExtractionConfig()]
         elif answer_type == "MultiChoiceExtractionConfig":
             config = [MultiChoiceExtractionConfig()]
         else:
@@ -322,16 +351,85 @@ def verify_answer(response_json):
         gold = parse(answer, extraction_config=config)
         parsed_explanation = parse(explanation, extraction_config=config)
         
-        return verify(gold, parsed_explanation)
+        if verify(gold, parsed_explanation):
+            return True, answer_type
+        
+        config_types = [
+            ("LatexExtractionConfig", [LatexExtractionConfig(), ExprExtractionConfig()]),
+            ("ExprExtractionConfig", [ExprExtractionConfig()]),
+            # ("StringExtractionConfig", [StringExtractionConfig()]),
+            ("MultiChoiceExtractionConfig", [MultiChoiceExtractionConfig()])
+        ]
+        
+        for type_name, config in config_types:
+            if type_name == answer_type:
+                continue 
+                
+            try:
+                gold = parse(format_boxed(answer), extraction_config=config)
+                parsed_explanation = parse(format_boxed(explanation), extraction_config=config)
+                
+                if verify(gold, parsed_explanation):
+                    print(f"Verification succeeded with alternative type: {type_name}")
+                    return True, type_name
+            except Exception as e:
+                print(f"Failed with {type_name}: {str(e)}")
+                continue
+        
+        return False, None
     except Exception as e:
         print(f"Error during verification: {str(e)}")
-        return False
+        return False, None
+    
+async def create_chat_completion_with_retry(
+    session: aiohttp.ClientSession,
+    messages: List[Dict[str, str]],
+    settings: Dict[Any, Any],
+    cookies: Dict[str, str] = None,
+    API_KEY: str = None,
+    MODEL: str = "gpt-3.5-turbo",
+    max_retries: int = 3,
+    initial_delay: float = 1.5
+) -> Union[str, Exception]:
+    """Create chat completion with exponential backoff retry logic"""
+    delay = initial_delay
+    last_error = None
+    
+    for attempt in range(max_retries):
+        try:
+            if attempt > 0:
+                logging.info(f"Retry attempt {attempt + 1} after {delay} seconds delay")
+                await asyncio.sleep(delay)
+            
+            response = await inference_engine.create_chat_completion(
+                session, messages, settings, cookies=cookies, 
+                API_KEY=API_KEY, MODEL=MODEL
+            )
+            return response
+            
+        except Exception as e:
+            last_error = e
+            error_msg = str(e)
+            logging.error(f"Attempt {attempt + 1} failed: {error_msg}")
+            
+            if "400" in error_msg:
+                logging.warning(f"Bad request error (400) on attempt {attempt + 1}")
+                # For 400 errors, we'll wait longer
+                delay *= 2.5
+            else:
+                delay *= 1.5
+                
+            if attempt == max_retries - 1:
+                logging.error(f"All {max_retries} attempts failed. Last error: {error_msg}")
+                return last_error
+    
+    return last_error
 
 async def process_batch(batch_data, verified_answers, unverified_answers):
     batch = []
     for item in batch_data:
-        question = item.get("Question_refine", item.get("Question", "ERROR"))
-        explanation = item.get("Explanation_refine", item.get("Explanation", "ERROR"))
+        question = item.get("Question", item.get("Question", "ERROR"))
+        explanation = item.get("Explanation", item.get("Explanation", "ERROR"))
         
         if not (question and explanation):
             continue
@@ -343,27 +441,105 @@ async def process_batch(batch_data, verified_answers, unverified_answers):
         return
 
     async with aiohttp.ClientSession() as session:
+        # First attempt with retry logic
         responses = await asyncio.gather(
-            *[inference_engine.create_chat_completion(session, [msg], LLMSamplingSettings().as_dict(), cookies=cookies, MODEL=MODEL, API_KEY=API_KEY) for msg in batch], 
+            *[create_chat_completion_with_retry(
+                session, [msg], LLMSamplingSettings().as_dict(), 
+                cookies=cookies, MODEL=MODEL, API_KEY=API_KEY
+            ) for msg in batch],
             return_exceptions=True
         )
+        
+        # Add a small delay between batches to avoid rate limiting
+        await asyncio.sleep(0.5)
+        
+        # Collect failed requests for batch retry
+        failed_items = []
+        failed_indices = []
+        for i, (resp, item) in enumerate(zip(responses, batch_data)):
+            if isinstance(resp, Exception) or not resp:
+                failed_items.append((batch[i], item))
+                failed_indices.append(i)
+        
+        if failed_items:
+            logging.info(f"Retrying batch of {len(failed_items)} failed requests")
+            # Retry all failed requests in a single batch
+            retry_responses = await asyncio.gather(
+                *[create_chat_completion_with_retry(
+                    session, [msg], LLMSamplingSettings().as_dict(),
+                    cookies=cookies, MODEL=MODEL, API_KEY=API_KEY,
+                    initial_delay=2.0  # Longer initial delay for retries
+                ) for msg, _ in failed_items],
+                return_exceptions=True
+            )
+            
+            # Update original responses with retry results
+            for idx, retry_resp in zip(failed_indices, retry_responses):
+                responses[idx] = retry_resp
     
+    # Process all responses including retried ones
     for response_text, item in zip(responses, batch_data):
         if isinstance(response_text, Exception) or not response_text:
+            error_msg = str(response_text) if isinstance(response_text, Exception) else "No response"
+            logging.error(f"Failed to get response for question: {item.get('Question', '')[:100]}... Error: {error_msg}")
+            
+            # Create a failed response entry
+            failed_response = {
+                "Question": item.get("Question_refine", item.get("Question")),
+                "Original_Explanation": item.get("Explanation_refine", item.get("Explanation")),
+                "Grade": item.get("Grade", ""),
+                "Source": item.get("Source", ""),
+                "Difficulty Level": item.get("Difficulty Level", ""),
+                "Response Type": item.get("Response Type", ""),
+                "Math Type": item.get("Math Type", ""),
+                "Answer Type": item.get("Answer Type", ""),
+                "Categories": item.get("Categories", ""),
+                "Error": error_msg,
+                "Type": "FailedResponse",
+                "RetryCount": 1  # Track number of retries
+            }
+            unverified_answers.append(failed_response)
             continue
         
         response_json = parse_llm_response(response_text)
         if not response_json:
+            logging.error(f"Failed to parse response for question: {item.get('Question', '')[:100]}...")
+            # Create a failed response entry for parsing errors
+            failed_response = {
+                "Question": item.get("Question_refine", item.get("Question")),
+                "Original_Explanation": item.get("Explanation_refine", item.get("Explanation")),
+                "Grade": item.get("Grade", ""),
+                "Source": item.get("Source", ""),
+                "Difficulty Level": item.get("Difficulty Level", ""),
+                "Response Type": item.get("Response Type", ""),
+                "Math Type": item.get("Math Type", ""),
+                "Answer Type": item.get("Answer Type", ""),
+                "Categories": item.get("Categories", ""),
+                "Error": "Failed to parse response",
+                "Type": "FailedResponse",
+                "RetryCount": 1
+            }
+            unverified_answers.append(failed_response)
             continue
         
-        is_verified = verify_answer(response_json)
+        is_verified, verified_type = verify_answer(response_json)
+       
         response_json["Question"] = item.get("Question_refine", item.get("Question"))
         response_json["Original_Explanation"] = item.get("Explanation_refine", item.get("Explanation"))
         response_json["Grade"] = item.get("Grade", "")
-        respone_json["Source"] = item.get("Source", "")
-        response_json["Type"] = item.get("Type", "")
+        response_json["Source"] = item.get("Source", "")
+        response_json["Grade"] = item.get("Grade", "")
+        response_json["Difficulty Level"] = item.get("Difficulty Level", "")
+        response_json["Source"] = item.get("Source", "")
+        response_json["Response Type"] = item.get("Response Type", "")
+        response_json["Math Type"] = item.get("Math Type", "")
+        response_json["Answer Type"] = item.get("Answer Type", "")
+        response_json["Categories"] = item.get("Categories", "")
         
         if is_verified:
+            if verified_type and verified_type != response_json.get("Type"):
+                response_json["Original_Type"] = response_json.get("Type")
+                response_json["Type"] = verified_type
             verified_answers.append(response_json)
         else:
             unverified_answers.append(response_json)
@@ -377,15 +553,13 @@ def save_results(verified_answers, unverified_answers):
     print(f"Saved {len(verified_answers)} verified answers and {len(unverified_answers)} unverified answers")
 
 async def main():
-    
+
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
     
     data_files = read_data_file(DATA_FILE_PATH)
     if not data_files:
         print("No data to process")
         return
-    
-    data_files = data_files[:1000]  # Limit to 1000 items for testing
     
     verified_answers = []
     unverified_answers = []

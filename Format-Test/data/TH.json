@@ -1,0 +1,2658 @@
+[
+    {
+        "Type": "Multi Choice",
+        "Question": "Hãy đổi giờ thành phút như sau: 3 giờ 15 phút = ....phút\nA. 120 phút\nB. 195 phút\nC. 215 phút\nD. 205 phút",
+        "Answer": "B. 195 phút",
+        "Source": "2-004",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Time"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số thích hợp điền vào chỗ trống 95m^{2} 7dm^{2} = . . . m^{2} là:\nA. 957\nB. 95,7\nC. 95,07\nD. 95,007",
+        "Answer": "C. 95,07",
+        "Source": "2-002",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Giá trị của chữ số 2 trong số 340,2 là:\nA. \\frac{2}{10}\nB. \\frac{2}{100}\nC. \\frac{2}{100}\nD. 2",
+        "Answer": "A. \\frac{2}{10}",
+        "Source": "2-007",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Các số thập phân sau đây số nào là số bé nhất?\nA. 13,1\nB. 12,4\nC. 12,3\nD. 12,2",
+        "Answer": "D. 12,2",
+        "Source": "2-009",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm nửa chu vi của khu vườn hình chữ nhật dài 50cm, rộng 40cm.\nA. 1596 m\nB. 160 m\nC. 180 m\nD. 90 m",
+        "Answer": "D. 90 m",
+        "Source": "2-010",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Length"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "3 \\frac{6}{100} m^{2} = …….. m^{2}\nA. 3,6 m^{2}\nB. 3,06 m^{2}\nC. 750 m^{2}\nD. 360 m^{2}",
+        "Answer": "B. 3,06 m^{2}",
+        "Source": "2-008",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Cô giáo phân công cho 2/5 số bạn trong lớp đi quét sân trường còn 1/3 số bạn đi dọn vệ sinh hành lang thì trong lớp còn 12 bạn vệ sinh lớp học. Hỏi tổng số học sinh ban đầu của lớp là bao nhiêu?\nA. 35\nB. 40\nC. 45\nD. 50",
+        "Answer": "C. 45",
+        "Source": "2-006",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Kết quả của 1,05 m^{3} = …….. dm^{3} ?\nA. 105\nB. 1005\nC. 1050\nD. 1500",
+        "Answer": "C. 1050",
+        "Source": "2-001",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Volume"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Phép tính 4 \\frac{33}{100} + 4 \\frac{3}{10} viết dưới dạng số thập phân là:\nA. 8,433\nB. 8,63\nC. 4,633\nD. 8,33",
+        "Answer": "B. 8,63",
+        "Source": "2-005",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "302 được viết thành tổng là:\nA. 300 + 20\nB. 300 + 02\nC. 300 + 10 + 2\nD. 30 + 10 + 2",
+        "Answer": "B. 300 + 02",
+        "Source": "2-003",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Natural numbers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số thập phân nhỏ nhất là:\nA. 2,445\nB. 2,454\nC. 2,455\nD. 2,444",
+        "Answer": "D. 2,444",
+        "Source": "2-011",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Dãy số nào sau đây được xếp theo thứ tự giảm dần?\nA. 0,901; 0,889; 0,899; 0,809; 0,798\nB. 0,901; 0,899; 0,889; 0,809; 0,798\nC. 0,899; 0,889; 0,798; 0,809; 0,901\nD. 0,798; 0,809; 0,889; 0,899; 0,901",
+        "Answer": "B. 0,901; 0,899; 0,889; 0,809; 0,798",
+        "Source": "2-016",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Cách viết khác của 35,33 là:\nA. 35,033\nB. 35,330\nC. 35,303\nD. 350,33",
+        "Answer": "B. 35,330",
+        "Source": "2-013",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "0,12 =  ...............%\nA. 1,2%\nB. 12%\nC. 120%\nD. 0,12%",
+        "Answer": "B. 12%",
+        "Source": "2-015",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một con voi nặng 3,3 tấn. Con voi nặng hơn con cá heo nặng 1,7 tấn. Hỏi con cá heo đó nặng bao nhiêu ki-lô-gam?\nA. 1,6 kg\nB. 1600kg\nC. 160kg\nD. 16kg",
+        "Answer": "B. 1600kg",
+        "Source": "2-018",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Mass"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Phân số bằng phân số \\frac{2}{3} là:\nA. \\frac{4}{6}\nB. \\frac{3}{5}\nC. \\frac{4}{5}\nD. \\frac{3}{2}",
+        "Answer": "A. \\frac{4}{6}",
+        "Source": "2-019",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Duyên có 18 viên kẹo, Kiên có số viên kẹo bằng 2/3 số kẹo của Duyên, riêng Châu có số kẹo bằng trung bình cộng của Duyên và Kiên. Hỏi cả 3 bạn Duyên, Kiên và Châu có tổng cộng bao nhiêu viên kẹo?\nA. 30\nB. 20\nC. 35\nD. 45",
+        "Answer": "D. 45",
+        "Source": "2-012",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số thích hợp viết vào chỗ chấm của 9 cm^{2} 8 mm^{2} = ................ mm^{2} là:\nA. 98\nB. 908\nC. 980\nD. 9080",
+        "Answer": "B. 908",
+        "Source": "2-023",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Chữ số 6 trong số thập phân 72,364 có giá trị là:\nA. 6\nB. \\frac{6}{10}\nC. \\frac{6}{100}\nD. \\frac{6}{1000}",
+        "Answer": "C. \\frac{6}{100}",
+        "Source": "2-017",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm một số biết rằng 20% của số đó bằng 202:\nA. 576\nB. 10060\nC. 1010\nD. 765",
+        "Answer": "C. 1010",
+        "Source": "2-020",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "49,4% x 30 = ............. %\nA. 1482\nB. 14,82\nC. 148,2\nD. 1,482",
+        "Answer": "A. 1482",
+        "Source": "2-014",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Thực hiện phép tính sau: 18,7 – 2 \\times 1,3\nA. 15,1\nB. 16,1\nC. 14,1\nD. 13,1",
+        "Answer": "B. 16,1",
+        "Source": "2-025",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "5m = ........ Số thích hợp để điền vào chỗ chấm là:\nA. 500 cm\nB. 0,05 cm\nC. 5000 cm\nD. 500 dm",
+        "Answer": "A. 500 cm",
+        "Source": "2-021",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Length"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Hình tam giác có chiều cao 1,5 dm, đáy 8 dm. Vậy diện tích hình là bao nhiêu\nA. 6 dm^{2}\nB. 8 dm^{2}\nC. 3 dm^{2}\nD. 3,9 dm^{2}",
+        "Answer": "A. 6 dm^{2}",
+        "Source": "2-026",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một hình tam giác có cạnh đáy 13,6m, chiều cao bằng \\frac{1}{2} cạnh đáy. Tính diện tích hình tam giác đó?\nA. 39,69 m^{2}\nB. 92,84 m^{2}\nC. 46,24m^{2}\nD. 4624m^{2}",
+        "Answer": "C. 46,24m^{2}",
+        "Source": "2-024",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Trong các số thập phân dưới đây, chữ số 5 của số thập phân nào chỉ hàng phần trăm\nA. 523,41\nB. 122,15\nC. 225,19\nD. 423,51",
+        "Answer": "B. 122,15",
+        "Source": "2-028",
+        "Difficulty Level": "L1",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Chữ số 3 trong số 45,2638 có giá trị là:\nA. \\frac{3}{1000}\nB. \\frac{3}{10000}\nC. \\frac{3}{100}\nD. \\frac{3}{10}",
+        "Answer": "A. \\frac{3}{1000}",
+        "Source": "2-029",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số lớn nhất trong các số sau là:\nA. 7,85\nB. 7,58\nC. 8,57\nD. 8,75",
+        "Answer": "D. 8,75",
+        "Source": "2-027",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Nếu giảm bán kính của hình tròn đi 6 lần thì chu vi sẽ giảm đi mấy lần?\nA. 3 lần\nB. 6 lần\nC. 9 lần\nD. 12 lần",
+        "Answer": "B. 6 lần",
+        "Source": "2-022",
+        "Difficulty Level": "L2",
+        "Categories": "2.B - Circles"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Ba đơn vị bốn phần nghìn là:\nA. 3,400\nB. 34000\nC. 3,04\nD. 3,004",
+        "Answer": "D. 3,004",
+        "Source": "2-030",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một mảnh vườn hình chữ nhật có chiều dài 28m,chiều rộng 12,5m. Tính diện tích của mảnh đất ấy:\nA. 350m^{2}\nB. 336m^{2}\nC. 375m^{2}\nD. 275m^{2}",
+        "Answer": "A. 350m^{2}",
+        "Source": "2-031",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số thập phân “tám đơn vị, hai phần nghìn” được viết là:\nA. 8\nB. 8,2\nC. 8,002\nD. 8,02",
+        "Answer": "C. 8,002",
+        "Source": "2-034",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một số thập phân chia 0,1 bằng số đó nhân với........\nA. 100\nB. 1\nC. 10\nD. \\frac{1}{10}",
+        "Answer": "C. 10",
+        "Source": "2-036",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một ô tô đi quãng đường AB dài 100 km trong 2 giờ. Hỏi ô tô đi với tốc độ bao nhiêu km giờ?\nA. 80 Km/giờ\nB. 60 km/giờ\nC. 50 km/giờ\nD. 48 km/giờ",
+        "Answer": "C. 50 km/giờ",
+        "Source": "2-039",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Velocity"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Biến đổi 6 \\frac{2}{100} sang dạng số thập phân\nA. 6,02\nB. 6,002\nC. 462\nD. 62",
+        "Answer": "A. 6,02",
+        "Source": "2-040",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm chiều dài của một đoạn dây điện biết 20% chiều dài là 12m\nA. 2,4 m\nB. 60 m\nC. 0,26 m\nD. 12m",
+        "Answer": "B. 60 m",
+        "Source": "2-033",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Hình chữ nhật có diện tích 900cm^{2}. Một cạnh có chiều dài gấp bốn lần cạnh còn lại. Hỏi cạnh dài hơn có chiều dài bao nhiêu ?\nA. 150mm\nB. 300mm\nC. 600mm\nD. 900mm",
+        "Answer": "C. 600mm",
+        "Source": "2-038",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Length"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Chữ số 7 trong số thập phân 26,475 có giá trị là:\nA. \\frac{7}{10}\nB. \\frac{7}{100}\nC. 7\nD. \\frac{7}{1000}",
+        "Answer": "B. \\frac{7}{100}",
+        "Source": "2-035",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một chiếc ô tô bắt đầu di chuyển từ thành phố X lúc 7 giờ 30 phút và đến đến thành phố Y lúc 10 giờ. Biết rằng vận tốc của ô tô là 80 km/giờ. Hỏi, độ dài của quãng đường từ thành phố X đến thành phố Y là bao nhiêu?\nA. 12500m\nB. 200km\nC. 135km\nD. 13500m",
+        "Answer": "B. 200km",
+        "Source": "2-037",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Length"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Viết kết quả đúng:  3cm^2 85 mm^2=… cm^2\nA. 3,85\nB. 3,0085\nC. 0,385\nD. 38,5",
+        "Answer": "A. 3,85",
+        "Source": "2-042",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tám đơn vị, ba phần trăm được viết dưới dạng hỗn số là\nA. 8 \\frac{30}{100}\nB. 8 \\frac{3}{10}\nC. 8 \\frac{3}{100}\nD. 8 \\frac{300}{10}",
+        "Answer": "C. 8 \\frac{3}{100}",
+        "Source": "2-032",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Giá trị của chữ số 7 trong số thập phân 45,872 là:\nA. \\frac{7}{100}\nB. \\frac{7}{1000}\nC. \\frac{7}{10}\nD. 7",
+        "Answer": "A. \\frac{7}{100}",
+        "Source": "2-044",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tỉ số phần trăm của 19 và 76 là:\nA. 0,25%\nB. 2,5%\nC. 25%\nD. 76%",
+        "Answer": "C. 25%",
+        "Source": "2-041",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Ngày 28 tháng 4 là thứ sáu. Ngày 2 tháng 5 là thứ mấy?\nA. Thứ tư\nB. Thứ ba\nC. Thứ năm\nD. Chủ nhật",
+        "Answer": "B. Thứ ba",
+        "Source": "2-045",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Time"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Diện tích hình tam giác có độ dài đáy 2,5m và chiều cao 1,8m là:\nA. 4 m^{2}\nB. 2 m^{2}\nC. 1,6 m^{2}\nD. 2,25 m^{2}",
+        "Answer": "D. 2,25 m^{2}",
+        "Source": "2-048",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Phép tính (60,2 + 2,12) / 0,1 có kết quả là:\nA. 62,5\nB. 6,32\nC. 62,32\nD. 623,2",
+        "Answer": "D. 623,2",
+        "Source": "2-050",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Kết quả của phép chia 85 \\div 0,01 \\times 0.1 là\nA. 850\nB. 8,5\nC. 8500\nD. 85",
+        "Answer": "A. 850",
+        "Source": "2-049",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một quả mít có cân nặng 4\\frac{4}{8}kg, còn quả bưởi có cân nặng là 2\\frac{3}{6} kg. Hỏi quả mít và quả bưởi có cân nặng bao nhiêu ki-lô-gam?\nA. 2.5\nB. 4.5\nC. 7\nD. 8",
+        "Answer": "C. 7",
+        "Source": "2-047",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Gỗ tươi chứa 30% nước. Vậy gỗ sau khi sấy khô hết nước thì còn bao nhiêu phần trăm so với ban đầu chưa sấy.\nA. 70%\nB. 16%\nC. 80%\nD. 76,875%",
+        "Answer": "A. 70%",
+        "Source": "2-043",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tỷ lệ giữa 20 và 1200 là:\nA. 1,67%\nB. 67%\nC. 16,67%\nD. 25%",
+        "Answer": "A. 1,67%",
+        "Source": "2-046",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số 938,275 giá trị của chữ số 7 là:\nA. 7 phần nghìn\nB. 7 chục\nC. 7 phần mười\nD. 7 phần trăm",
+        "Answer": "D. 7 phần trăm",
+        "Source": "2-052",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tính giá trị của biểu thức: 2,98 + 1 \\times 12 là:\nA. 22,22\nB. 12, 24\nC. 10,00\nD. 14,98",
+        "Answer": "D. 14,98",
+        "Source": "2-055",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Dãy số được xếp theo thứ tự từ bé đến lớn là:\nA. 0,5; 0,14; 0,41; 0,375\nB. 0,5; 0,41; 0,375; 0,14\nC. 0,14; 0,375; 0,41; 0,5\nD. 0,14; 0,375; 0,5; 0,41",
+        "Answer": "C. 0,14; 0,375; 0,41; 0,5",
+        "Source": "2-059",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Cho dãy số 11, 12, 13, 14, 15, 16, 17, 18, 19,20. Số hạng thứ 8 của dãy số cộng thêm 3 đơn vị bằng bao nhiêu?\nA. 18\nB. 19\nC. 20\nD. 21",
+        "Answer": "C. 20",
+        "Source": "2-051",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Sequences, arithmetic progressions, geometric progressions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Nếu chỉ lấy đến hai chữ số của phần thập phân của thương khi chia 33,14 cho 60 thì số dư là\nA. 0,08\nB. 0,4\nC. 0,14\nD. 0,004",
+        "Answer": "C. 0,14",
+        "Source": "2-053",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Kết quả của: 12giờ 32 phút \\div 4 = ........ là:\nA. 3 giờ 10 phút\nB. 4 giờ 21 phút\nC. 3 giờ 8 phút\nD. 3 giờ 7 phút",
+        "Answer": "C. 3 giờ 8 phút",
+        "Source": "2-056",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Time"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tổng của dãy số 1, 4, 7, 10, 13, 16, ..., 94, 97, 100, 103 là:\nA. 1714\nB. 1720\nC. 1820\nD. 1814",
+        "Answer": "C. 1820",
+        "Source": "2-058",
+        "Difficulty Level": "L3",
+        "Categories": "1.B - Sequences, arithmetic progressions, geometric progressions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số học sinh nữ của lớp 5B là 21 và chiếm 60% số học sinh cả lớp. Hỏi lớp 5B có bao nhiêu học sinh:\nA. 40\nB. 25\nC. 20\nD. 35",
+        "Answer": "D. 35",
+        "Source": "2-054",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tính Diện tích của hình chữ nhật biết chiều dài là 15cm và chiều rộng bằng 1/2 chiều dài trừ thêm 1/2cm.\nA. 43cm^{2}\nB. 120cm^{2}\nC. 86cm^{2}\nD. 105cm^{2}",
+        "Answer": "D. 105cm^{2}",
+        "Source": "2-057",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Năm nhuận có bao nhiêu ngày.\nA. 355\nB. 366\nC. 377\nD. 365",
+        "Answer": "B. 366",
+        "Source": "2-064",
+        "Difficulty Level": "L1",
+        "Categories": "2.D - Time"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Kết quả của phép tính 5645,78 + 212,22\nA. 5857\nB. 3821,2\nC. 1781,1\nD. 5858",
+        "Answer": "D. 5858",
+        "Source": "2-068",
+        "Difficulty Level": "L1",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Lan nghĩ ra 1 số tự nhiên có 4 chữ số, biết rằng nếu xoá đi chữ số hàng ngàn và hàng trăm thì số đó giảm đi 71 lần. Vậy số đó là số nào trong các số dưới đây:\nA. 1220\nB. 1420\nC. 1319\nD. 1207",
+        "Answer": "B. 1420",
+        "Source": "2-060",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Natural numbers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "6ha 5dam^{2} =........ ha. Số thích hợp viết vào chỗ chấm là:\nA. 6,5\nB. 6,50\nC. 6,05\nD. 650",
+        "Answer": "C. 6,05",
+        "Source": "2-061",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Chữ số 6 trong số 157,62 chỉ:\nA. 6 phần mười\nB. 6 phần trăm\nC. 6 đơn vị\nD. 6 chục",
+        "Answer": "A. 6 phần mười",
+        "Source": "2-066",
+        "Difficulty Level": "L1",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số thập phân 0,5 được viết dưới dạng phân số là số nào? Khoanh vào đáp án đúng:\nA. \\frac{5}{100}\nB. \\frac{5}{10}\nC. \\frac{0}{5}\nD. \\frac{0}{50}",
+        "Answer": "B. \\frac{5}{10}",
+        "Source": "2-065",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Hai trăm mười phẩy ba mươi lăm có dạng nào sau đây:\nA. 210,35\nB. 21,035\nC. 210,345\nD. 2,1035",
+        "Answer": "A. 210,35",
+        "Source": "2-067",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "0,5% = ?\nA. \\frac{5}{10}\nB. \\frac{5}{100}\nC. \\frac{5}{1000}\nD. \\frac{5}{10000}",
+        "Answer": "C. \\frac{5}{1000}",
+        "Source": "2-069",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Điền đáp án đúng vào dấu .... dưới đây:\n3km 480m = ……..km.\nA. 3,048\nB. 3,48\nC. 348\nD. 3048",
+        "Answer": "B. 3,48",
+        "Source": "2-070",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Length"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Hai lớp A và B được phân công quét một nửa sân trường. Hai lớp bắt đầu quét cùng một lúc. Sau 20 phút lớp A quét xong phần sân được giao và tiếp tục sang quét cùng lớp B thêm 4 phút nữa thì hai lớp quét xong cả sân trường. Hỏi nếu chỉ 1 mình lớp B quét không có lớp A thì trong bao lâu sẽ xong toàn bộ sân trường.\nA. 30 phút\nB. 25 phút\nC. 40 phút\nD. 60 phút",
+        "Answer": "D. 60 phút",
+        "Source": "2-062",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Đổi:  0,12 m^{2} = ………. dm^{2}\nA. 120\nB. 12\nC. 1200\nD. 12000",
+        "Answer": "B. 12",
+        "Source": "2-073",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một hình chữ nhật có chiều rộng 15 m và chiều dài gấp 5 lần, thì diện tích hình chữ nhật trên là:\nA. 1125m^{2}\nB. 1225m^{2}\nC. 75m^{2}\nD. 275m^{2}",
+        "Answer": "A. 1125m^{2}",
+        "Source": "2-072",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tổng của số chẵn lớn nhất có ba chữ số và số liền sau của số bé nhất có hai chữ số là:\nA. 1000\nB. 1008\nC. 1009\nD. 1108",
+        "Answer": "C. 1009",
+        "Source": "2-063",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Natural numbers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Cho biết kết quả của 584g = …. kg là bao nhiêu\nA. 58,4kg\nB. 0,584kg\nC. 5,84kg\nD. 0,0584kg",
+        "Answer": "B. 0,584kg",
+        "Source": "2-076",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Mass"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một tấm bìa hình chữ nhật có chiều dài 21,3cm, chiều rộng 12,5cm. Tính diện tích miếng bìa đó.\nA. 266,15cm^{2}\nB. 265,25cm^{2}\nC. 2662,5cm^{2}\nD. 266,25cm^{2}",
+        "Answer": "D. 266,25cm^{2}",
+        "Source": "2-075",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Dấu lớn ( >) ở cặp số:\nA. 8000.....7999 + 1\nB. 78659.....76860\nC. 9000 + 900......10000\nD. 9000.....9000",
+        "Answer": "C. 9000 + 900......10000",
+        "Source": "2-074",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Natural numbers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tính thể tích của hình hộp chữ nhật  dài 7cm, rộng 5cm và chiều cao bằng 8/5 của chiều rộng là:\nA. 280 cm^{3}\nB. 280 cm^{2}\nC. 240 cm^{2}\nD. 240 cm^{3}",
+        "Answer": "A. 280 cm^{3}",
+        "Source": "2-077",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Volume"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Kết quả của hỗn số 5 \\frac{4}{5} - 3 \\frac{4}{5} - \\frac{1}{2} là:\nA. \\frac{15}{10}\nB. \\frac{12}{5}\nC. \\frac{15}{5}\nD. \\frac{29}{5}",
+        "Answer": "A. \\frac{15}{10}",
+        "Source": "2-071",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "An đi học lúc 6 giờ 45 phút, An chờ xe bus trong 30 phút và xe bus di chuyển mất 15 phút. Vậy An tới trường lúc mấy giờ?\nA. 7 giờ 25 phút\nB. 8 giờ 25 phút\nC. 7 giờ 15 phút\nD. 7 giờ 30 phút",
+        "Answer": "D. 7 giờ 30 phút",
+        "Source": "2-083",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Time"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Hình vuông có chu vi 576 cm thì cạnh của hình vuông đó là:\nA. 9cm\nB. 6cm\nC. 144cm\nD. 234cm",
+        "Answer": "C. 144cm",
+        "Source": "2-079",
+        "Difficulty Level": "L3",
+        "Categories": "2.B - Quadrilaterals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Trong các số 9,99; 9,9; 9,98; 9,89 , số nào là số lớn nhất:\nA. 9,99\nB. 9,9\nC. 9,98\nD. 9,09",
+        "Answer": "A. 9,99",
+        "Source": "2-086",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Thời gian từ  8 giờ 50 phút tối đến 9 giờ 35 phút sáng hôm sau là:\nA. 1655 phút\nB. 1765 phút\nC. 755 phút\nD. 765 phút",
+        "Answer": "D. 765 phút",
+        "Source": "2-080",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Time"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Trong các số 5,686; 5,668; 5,678; 5,716, số bé nhất là:\nA. 5,686\nB. 5,668\nC. 5,678\nD. 5,716",
+        "Answer": "B. 5,668",
+        "Source": "2-084",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Hỗn số 2 \\frac{3}{4} được viết dưới dạng số thập phân là:\nA. 2,3\nB. 2,4\nC. 2,75\nD. 2,70",
+        "Answer": "C. 2,75",
+        "Source": "2-082",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Cho một số có 2 chữ số, biết rằng tổng của 2 chữ số là 10 và tích của 2 chữ số sau cộng thêm 4 là 25 và chữ số ở hàng đơn vị lớn hơn số ở hàng chục. Vậy số đó là số nào trong các số dưới đây:\nA. 82\nB. 28\nC. 37\nD. 73",
+        "Answer": "C. 37",
+        "Source": "2-078",
+        "Difficulty Level": "L3",
+        "Categories": "1.B - Equations and systems of equations"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số thập viết gồm 50 đơn vị, 8 phần trăm, 3 phần nghìn được viết là:\nA. 50,8\nB. 50,083\nC. 50,830\nD. 50,803",
+        "Answer": "B. 50,083",
+        "Source": "2-085",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Người ta xây một bể nước, chiều dài 20 m, chiều rộng 15 m, một khu có độ sâu 0,2 m, một khu có độ sâu 2 m, hai khu có diện tích mặt nước bằng nhau. Muốn khoảng cách giữa mặt nước và mặt bể là 10cm thì lượng nước cần xả là bao nhiêu (bể chưa có nước).\nA. 52,5 m^{3}\nB. 67,5 m^{3}\nC. 100 m^{3}\nD. 60 m^{3}",
+        "Answer": "D. 60 m^{3}",
+        "Source": "2-081",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Volume"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Phép chia 23,45 \\div 7 có kết quả đúng là\nA. 3,5\nB. 3,05\nC. 4.5\nD. 3.35",
+        "Answer": "D. 3.35",
+        "Source": "2-091",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Giá trị của chữ số 2 trong số thập phân 879,427 là:\nA. \\frac{2}{10}\nB. \\frac{2}{1000}\nC. 20\nD. \\frac{2}{100}",
+        "Answer": "D. \\frac{2}{100}",
+        "Source": "2-088",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Trong số 91,0938 giá trị của chữ số 3 là\nA. \\frac{3}{100000}\nB. \\frac{3}{1000}\nC. \\frac{3}{100}\nD. \\frac{3}{10}",
+        "Answer": "B. \\frac{3}{1000}",
+        "Source": "2-089",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số lớn nhất trong các số: 9,899; 9,98; 9,89; 8,99 là:\nA. 9,89\nB. 9,899\nC. 9,98\nD. 8,99",
+        "Answer": "C. 9,98",
+        "Source": "2-093",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Trong các số có 3 chữ số dưới đây, số nào có hàng trăm trừ hàng chục bằng hàng đơn vị:\nA. 852\nB. 210\nC. 321\nD. 744",
+        "Answer": "C. 321",
+        "Source": "2-090",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Natural numbers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Cho tam giác có độ dài cạnh đáy là 5,1cm, chiều cao là 3,5cm. Tính diện tích của tam giác đó\nA. 27,3 cm^{2}\nB. 5,35 cm^{2}\nC. 8,925 cm^{2}\nD. 10.7cm^{2}",
+        "Answer": "C. 8,925 cm^{2}",
+        "Source": "2-095",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một bể nước hình hộp chữ nhật có chiều dài 3m chiều rộng 2m và chiều cao 1,5m. Bể hiện đang chứa đầy nước sau đó người ta lấy ra 50 thùng nước, dung tích của mỗi thùng là 40 lít, tiếp đến người ta lại dùng máy bơm để hút thêm 1/2 lượng nước có trong bể. Hỏi lượng nước còn lại trong bể là bao nhiêu?\nA. 7000\nB. 3500\nC. 8000\nD. 4000",
+        "Answer": "A. 7000",
+        "Source": "2-087",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Volume"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số chia hết cho cả 2, 5 và 9 là:\nA. 1370\nB. 2576\nC. 85324\nD. 6030",
+        "Answer": "D. 6030",
+        "Source": "2-092",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Integers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Trung bình cộng của 4 số: 45; 23; 68 và a là 96. Tìm a.\nA. 228\nB. 248\nC. 288\nD. 328",
+        "Answer": "B. 248",
+        "Source": "2-094",
+        "Difficulty Level": "L3",
+        "Categories": "3 - Elements of statistics"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một người đi xe máy trong 2 giờ được 40 km. Vận tốc của người đi được là:\nA. 20 km\nB. 2,5 km/giờ\nC. 40 giờ\nD. 20 km/giờ",
+        "Answer": "D. 20 km/giờ",
+        "Source": "2-099",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Velocity"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một hình lập phương có cạnh là 3,5m. Tính thể tích của hình lập phương đó:\nA. 42,875 m^{3}\nB. 12,25 m^{3}\nC. 27 m^{3}\nD. 27 m^{3}",
+        "Answer": "A. 42,875 m^{3}",
+        "Source": "2-097",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Volume"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Dạng số thập phân của 5 \\frac{8}{100} + 1 \\frac{3}{100} là\nA. 6,11\nB. 5,008\nC. 5,08\nD. 6,10",
+        "Answer": "A. 6,11",
+        "Source": "2-096",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tính diện tích của một hình chữ nhật dài 102cm và rộng 10cm:\nA. 1020 cm^{2}\nB. 10,22 cm^{2}\nC. 12 cm^{2}\nD. 120 cm^{2}",
+        "Answer": "A. 1020 cm^{2}",
+        "Source": "2-102",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Diện tích của nửa viên gạch hình vuông có cạnh 30cm là:\nA. 90cm^{2}\nB. 45cm^{2}\nC. 900cm^{2}\nD. 450cm^{2}",
+        "Answer": "D. 450cm^{2}",
+        "Source": "2-103",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tuấn có 15 viên bi, Kiên có số bi bằng 2/3 số bi của Tuấn còn Pháp có số bi bằng tổng số bi của Tuấn và Kiên. Hỏi Pháp có bao nhiêu viên bi?\nA. 15\nB. 20\nC. 25\nD. 30",
+        "Answer": "C. 25",
+        "Source": "2-098",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số 40,12 có phần thập phân là:\nA. 12\nB. \\frac{12}{10}\nC. \\frac{12}{100}\nD. \\frac{12}{1000}",
+        "Answer": "A. 12",
+        "Source": "2-104",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Đổi: 2 giờ 60phút = .................phút là:\nA. 2,6\nB. 90\nC. 120\nD. 180",
+        "Answer": "D. 180",
+        "Source": "2-108",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Time"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tính diện tích xung quanh của khối gỗ hình lập phương có cạnh 5 dm:\nA. 100dm^{2}\nB. 37,5dm^{2}\nC. 6,25dm^{2}\nD. 25dm^{2}",
+        "Answer": "A. 100dm^{2}",
+        "Source": "2-101",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Bạn Lan nghĩ ra được 1 số có 3 chữ số, nếu số đó cộng với 10 sau đó chia cho 10 thì được thương là 12 và dư 5, hãy tìm số đó.\nA. 105\nB. 115\nC. 125\nD. 145",
+        "Answer": "A. 105",
+        "Source": "2-100",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Integers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số thập phân thích hợp viết vào chỗ chấm để 12tấn5kg =……tấn là:\nA. 12,005\nB. 12,0005\nC. 12,05\nD. 12005",
+        "Answer": "A. 12,005",
+        "Source": "2-107",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Điền số thích hợp: 8m^{2} 8dm^{2} = ……..m^{2}\nA. 8,8\nB. 8,80\nC. 8,08\nD. 8,008",
+        "Answer": "C. 8,08",
+        "Source": "2-109",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Có 20 viên bi, trong đó có 3 viên bi đỏ, 4 viên bi xám, 5 viên bi đen, 8 viên bi trắng. Như vậy 1/4 số viên bi có màu là:\nA. Đỏ\nB. Xám\nC. Đen\nD. Trắng",
+        "Answer": "C. Đen",
+        "Source": "2-106",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số thập phân của phân số \\frac{300}{500}\nA. \\frac{30}{100}\nB. \\frac{6}{10}\nC. 0,6\nD. 0,35",
+        "Answer": "C. 0,6",
+        "Source": "2-113",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một cửa hàng buổi sáng bán được 1/2 số truyện tranh có trong cửa hàng và buổi chiều bán thêm được 2/9 số truyện thì còn lại 15 quyển truyện tranh trong cửa hàng. Hỏi tổng số quyển truyện tranh bán được trong buổi sáng là bao nhiêu?\nA. 39\nB. 30\nC. 27\nD. 24",
+        "Answer": "C. 27",
+        "Source": "2-110",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Kết quả của phép tính sau đây là bao nhiêu: 1\\frac{2}{3} + 2\\frac{3}{4} + 3\\frac{4}{5} + 4\\frac{5}{6} + \\frac{2}{3} + \\frac{3}{4} + \\frac{4}{5} + \\frac{5}{6}\nA. \\frac{161}{10}\nB. \\frac{163}{10}\nC. \\frac{171}{10}\nD. \\frac{173}{10}",
+        "Answer": "B. \\frac{163}{10}",
+        "Source": "2-111",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tính tỉ số phần trăm giữa số học sinh nữ và tổng số học sinh cả lớp biết số học sinh nữ là 20 và số học sinh nam là 25.\nA. 44,44%\nB. 66,66%\nC. 40%\nD. 60%",
+        "Answer": "A. 44,44%",
+        "Source": "2-112",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tính tổng S = 1/2 + 1/4 + 1/8 + ………………… + 1/128 + 1/256\nA. 1\nB. 1 + 1/256\nC. 1 - 1/256\nD. 1/256",
+        "Answer": "C. 1 - 1/256",
+        "Source": "2-114",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Rational numbers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một ô tô đi trên quãng đường AB dài 135 km trong 3 giờ. Vận tốc của ô tô là:\nA. 45 km/giờ\nB. 40 km/giờ\nC. 55 km/giờ\nD. 65 km/giờ",
+        "Answer": "A. 45 km/giờ",
+        "Source": "2-119",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Velocity"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một hình thang có độ dài hai đáy lần lượt là 26cm và 64cm. Diện tích hình thang 324 cm^{2} thì chiều cao là:\nA. 7,2cm\nB. 36cm\nC. 72cm\nD. 3,6cm",
+        "Answer": "A. 7,2cm",
+        "Source": "2-117",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Cho phân số \\frac{16}{5}. Nếu cộng thêm vào tử số và mẫu số của phân số đã cho cùng một số tự nhiên x thì ta được một phân số mới bằng 2. Hỏi \\frac{x}{2}+\\frac{1}{(x+2)} bằng bao nhiêu?\nA. \\frac{16}{5}\nB. \\frac{7}{3}\nC. \\frac{11}{4}\nD. \\frac{25}{8}",
+        "Answer": "D. \\frac{25}{8}",
+        "Source": "2-105",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "\\frac{11}{25} có dạng phân số thập phân là:\nA. \\frac{11}{100}\nB. \\frac{25}{100}\nC. \\frac{44}{100}\nD. \\frac{4}{100}",
+        "Answer": "C. \\frac{44}{100}",
+        "Source": "2-118",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Viết số thích hợp vào dấu 3 chấm :\n32 tấn 9 kg = ... kg\nA. 3209\nB. 32009\nC. 3290\nD. 32090",
+        "Answer": "B. 32009",
+        "Source": "2-116",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Trong các số 12,895; 12,891; 12,901; 12,894. Số thập phân bé nhất là:\nA. 12,895\nB. 12,891\nC. 12,901\nD. 12,894",
+        "Answer": "B. 12,891",
+        "Source": "2-124",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm chiều cao của hình hộp chữ nhật biết hình hộp chữ nhật dài 20dm, rộng 6dm và có thể tích là 300dm^{3}\nA. 10dm\nB. 2,5dm\nC. 8dm\nD. 6dm",
+        "Answer": "B. 2,5dm",
+        "Source": "2-120",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Volume"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Chu vi hình chữ nhật có chiều dài \\frac{5}{2} m và chiều rộng \\frac{1}{2} m là:\nA. \\frac{3}{4} m\nB. \\frac{6}{4} m\nC. 4 m\nD. 6 m",
+        "Answer": "D. 6 m",
+        "Source": "2-115",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Length"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Có 2 hình chữ nhật bằng nhau, biết một hình chữ nhật có chu vi bằng 40dm và một cạnh của hình chữ nhật đó có độ dài 5dm. Hỏi diện tích của 2 hình chữ nhật là bao nhiêu?\nA. 75dm^{2}\nB. 100dm^{2}\nC. 125dm^{2}\nD. 150dm^{2}",
+        "Answer": "B. 100dm^{2}",
+        "Source": "2-121",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tính diện tích của một hình tam giác có độ dài cạnh đáy 4dm và chiều cao 1dm:\nA. 5,4d m^{2}\nB. 10,8 dm^{2}\nC. 2,7 dm^{2}\nD. 2 dm^{2}",
+        "Answer": "D. 2 dm^{2}",
+        "Source": "2-125",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Kết quả của phép tính 6,7 + 8 + 7,7 là:\nA. 12,7\nB. 24,4\nC. 22,4\nD. 15,7",
+        "Answer": "C. 22,4",
+        "Source": "2-132",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Phân số \\frac{2}{20} có dạng số thập phân là:\nA. 1,5\nB. 2,0\nC. 0,02\nD. 0,1",
+        "Answer": "D. 0,1",
+        "Source": "2-123",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Khi đánh số trang của một cuốn sách từ trang 90 đến 110  ta cần dùng bao nhiêu chữ số.\nA. 33\nB. 43\nC. 53\nD. 63",
+        "Answer": "C. 53",
+        "Source": "2-126",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Natural numbers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một ô tô đi với vận tốc 60km/giờ, đi được trong 150 phút. Tính quãng đường mà ô tô đi được\nA. 150 km\nB. 480 km\nC. 420 km\nD. 300 km",
+        "Answer": "A. 150 km",
+        "Source": "2-127",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Velocity"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Hỗn số 5 \\frac{2}{3} được viết dưới dạng phân số là:\nA. \\frac{17}{3}\nB. \\frac{13}{3}\nC. \\frac{17}{5}\nD. \\frac{15}{2}",
+        "Answer": "A. \\frac{17}{3}",
+        "Source": "2-130",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Bạn Lan có 18 nhãn vở, còn bạn Hiền có số nhãn vở bằng 2/3 số nhãn của Lan, bạn Pháp có số nhãn vở bằng trung bình cộng của Lan và Hiền. Hỏi Pháp có bao nhiêu nhãn vở?\nA. 15\nB. 20\nC. 25\nD. 30",
+        "Answer": "A. 15",
+        "Source": "2-122",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Trong số thập phân 58,3072, chữ số 7 có giá trị là:\nA. \\frac{7}{10}\nB. \\frac{7}{100}\nC. \\frac{7}{1000}\nD. 7",
+        "Answer": "C. \\frac{7}{1000}",
+        "Source": "2-128",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số thập phân gồm có: 5 nghìn, 2 đơn vị, 2 phần nghìn được viết là:\nA. 50002,0002\nB. 5002,002\nC. 5000,2002\nD. 5002,0002",
+        "Answer": "B. 5002,002",
+        "Source": "2-129",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tính thể tích của ba hình hộp chữ nhật biết chiều dài 8 cm, chiều rộng 4cm, chiều cao 2cm.\nA. 450 cm^{3}\nB. 180 cm^{3}\nC. 192 cm^{3}\nD. 210 cm^{3}",
+        "Answer": "C. 192 cm^{3}",
+        "Source": "2-133",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Volume"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Hình hộp chữ nhật có chiều dài 1dm, chiều rộng 2cm, chiều cao 5cm thì thể tích hình hộp chữ nhật là:\nA. 10 dm^{3}\nB. 10 dm^{3}\nC. 0,1 dm^{3}\nD. 1 dm^{3}",
+        "Answer": "B. 10 dm^{3}",
+        "Source": "2-136",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Volume"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Hình hộp chữ nhật có chiều dài 1,5 cm chiều rộng 1,2 cm và chiều cao 0,5 cm. Thể tích hình hộp chữ nhật là:\nA. 0,9 cm^{2}\nB. 2,7 cm^{2}\nC. 0,9 cm^{3}\nD. 9 cm^{3}",
+        "Answer": "C. 0,9 cm^{3}",
+        "Source": "2-131",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Volume"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Diện tích của hình chữ nhật có chiều dài 22cm, chiều rộng 16,5 cm\nA. 3,625 cm^{2}\nB. 36,25 cm^{2}\nC. 362,3 cm^{2}\nD. 363 cm^{2}",
+        "Answer": "D. 363 cm^{2}",
+        "Source": "2-135",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Khi lấy 669,23 trừ cho 245,65 ta được:\nA. 70,54\nB. 700,54\nC. 423,58\nD. 700,54",
+        "Answer": "C. 423,58",
+        "Source": "2-138",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Chữ số 5 trong số thập phân 7,256 thuộc hàng nào ?\nA. Hàng đơn vị\nB. Hàng phần trăm\nC. Hàng phần mười\nD. Hàng phần nghìn",
+        "Answer": "B. Hàng phần trăm",
+        "Source": "2-140",
+        "Difficulty Level": "L1",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Dệt 5 chiếc khăn mặt hết 250g sợi. Hỏi dệt 30 chiếc khăn mặt như thế thì hết bao nhiêu gam sợi?\nA. 3500g\nB. 2000g\nC. 4000g\nD. 1500g",
+        "Answer": "D. 1500g",
+        "Source": "2-134",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Kết quả của phép tính 25,8 \\times  3,5 là:\nA. 90,30\nB. 9,030\nC. 903,0\nD. 9030",
+        "Answer": "A. 90,30",
+        "Source": "2-139",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tính thể tích hình chữ nhật biết chiều dài 3,2m; chiều rộng 1,2m; chiều cao 1m:\nA. 6m^{2}\nB. 3,68 m\nC. 3,68m^{2}\nD. 3,84m^{3}",
+        "Answer": "D. 3,84m^{3}",
+        "Source": "2-141",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Volume"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Kết quả của phép chia 34,254 : 0,01 là:\nA. 3,4254\nB. 34,254\nC. 342,54\nD. 3425,4",
+        "Answer": "D. 3425,4",
+        "Source": "2-143",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Hỏi: 36 phút = ...giờ\nA. 0,5 giờ\nB. 0,25 giờ\nC. 0,75 giờ\nD. 0,6 giờ",
+        "Answer": "D. 0,6 giờ",
+        "Source": "2-137",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Kết quả của phép tính: 84,32−24,32\nA. 70\nB. 84\nC. 60\nD. 80",
+        "Answer": "C. 60",
+        "Source": "2-148",
+        "Difficulty Level": "L1",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm thương và số dư trong phép chia 78:4\nA. Thương 19 dư 2\nB. Thương 17 dư 4\nC. Thương 19 dư 4\nD. Thương 17 dư 2",
+        "Answer": "A. Thương 19 dư 2",
+        "Source": "2-147",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Integers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm chữ số X, biết: 7,5 \\times 8 < 7,578 \\times X\nA. X = 7\nB. X = 8\nC. X = 6\nD. X = 0",
+        "Answer": "B. X = 8",
+        "Source": "2-150",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Chữ số 5 trong số 1695,7 chỉ:\nA. 5 đơn vị\nB. 5 phần mười\nC. 5 chục\nD. 5 phần trăm",
+        "Answer": "A. 5 đơn vị",
+        "Source": "2-144",
+        "Difficulty Level": "L1",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số thập phân thích hợp điền vào chỗ trống: 2cm^{2} 7mm^{2} = . . . . . .  cm^{2}\nA. 27\nB. 2,7\nC. 2,007\nD. 2,07",
+        "Answer": "D. 2,07",
+        "Source": "2-149",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một nhân viên cửa hàng buổi sáng bán được 1/2 số táo và buổi chiều bán thêm được 2/9 số táo thì còn lại 15 quả táo trong cửa hàng. Hỏi số quả táo có trong cửa hàng trước khi bán là bao nhiêu?\nA. 50\nB. 54\nC. 58\nD. 62",
+        "Answer": "B. 54",
+        "Source": "2-145",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Nếu chia 812,6 cho 4 và thương chỉ lấy 2 chữ số ở phần thập phân thì số dư là:\nA. 8\nB. 0,8\nC. 0,15\nD. 1,5",
+        "Answer": "C. 0,15",
+        "Source": "2-146",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm số có 3 chữ số, trong đó chữ số hàng đơn vị bằng 1/6 lần chữ số hàng chục và chữ số hàng trăm chia cho 5 số dư là 4.\nA. 461\nB. 561\nC. 661\nD. 961",
+        "Answer": "D. 961",
+        "Source": "2-142",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Integers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Điền số thích hợp vào chỗ trống: 2,5m^{2}5dm^{2} = ...... m^{2} là:\nA. 2,5\nB. 2,55\nC. 255\nD. 2, 055",
+        "Answer": "B. 2,55",
+        "Source": "2-155",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm số lớn biết tổng hai số bằng 212,12 và hiệu của hai số bằng 1,2:\nA. 106,66\nB. 100\nC. 184,7\nD. 105,46",
+        "Answer": "D. 105,46",
+        "Source": "2-152",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Trong năm học vừa qua trường Thành Công A có 30 bạn thi học sinh giỏi hai môn Toán và Tiếng Việt. Trong số đó có 17 bạn thi môn Toán và 16 bạn thi môn Tiếng Việt. Hỏi Trường có bao nhiêu bạn thi cả hai môn?\nA. 5\nB. 3\nC. 15\nD. 17",
+        "Answer": "B. 3",
+        "Source": "2-151",
+        "Difficulty Level": "L3",
+        "Categories": "3 - Elements of statistics"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một bể nước hình hộp chữ nhật có chiều dài 3m chiều rộng 2m và chiều cao 1,5m.Đầu tiên người ta hút đi 2/5 lượng nước trong bể sau đó dùng thùng lấy ra 50 thùng nước, dung tích của mỗi thùng là 40 lít. Hỏi lượng nước còn lại trong bể là bao nhiêu lít?\nA. 3400\nB. 3500\nC. 5300\nD. 4300",
+        "Answer": "A. 3400",
+        "Source": "2-154",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Volume"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một lớp học có 22 học sinh nam và 18 học sinh nữ. Vậy, tỉ số học sinh nữ so với số học sinh cả lớp là:\nA. 4,5%\nB. 45%\nC. 60%\nD. 0,6%",
+        "Answer": "B. 45%",
+        "Source": "2-156",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Có 144 cái cốc đóng đều vào 8 hộp mỗi hộp 6 cái; 7 hộp mỗi hộp 8 cái. Số cốc còn lại được đóng đều vào các hộp chứa được 10 cốc mỗi hộp. Hỏi tổng số hộp để chứa hết số cốc là bao nhiêu ?\nA. 19\nB. 21\nC. 23\nD. 29",
+        "Answer": "A. 19",
+        "Source": "2-153",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Natural numbers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Giá trị của chữ số 5 trong số thập phân 14,597 là:\nA. 5\nB. \\frac{5}{10}\nC. \\frac{5}{100}\nD. \\frac{5}{1000}",
+        "Answer": "B. \\frac{5}{10}",
+        "Source": "2-160",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Điền số thích hợp: 2m^{2} 12dm^{2}= …………m^{2} là:\nA. 212 m^{2}\nB. 2,12 m^{2}\nC. 2,02 m^{2}\nD. 2,002 m^{2}",
+        "Answer": "B. 2,12 m^{2}",
+        "Source": "2-161",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Phân số thập phân là:\nA. \\frac{3}{7}\nB. \\frac{4}{19}\nC. \\frac{100}{34}\nD. \\frac{15}{100}",
+        "Answer": "D. \\frac{15}{100}",
+        "Source": "2-157",
+        "Difficulty Level": "L1",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Điền kết quả đúng: 2kg 3g =…………g\nA. 230\nB. 203\nC. 2003\nD. 23",
+        "Answer": "C. 2003",
+        "Source": "2-163",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Mass"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm một số, biết rằng nếu lấy số đó bớt đi 3454 rồi gấp lên 3 lần cuối cùng thêm 100 vào thì được 1036.\nA. 1036\nB. 3454\nC. 312\nD. 3766",
+        "Answer": "D. 3766",
+        "Source": "2-159",
+        "Difficulty Level": "L3",
+        "Categories": "1.B - Equations and systems of equations"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Phép tính (45,6 \\div 12) - 2,03 có kết quả là:\nA. 1,77\nB. 24,1\nC. 36,97\nD. 4,06",
+        "Answer": "A. 1,77",
+        "Source": "2-162",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Trong lớp học, có 2/5 số bạn được phân công vào đội múa còn 1/3 số bạn được phân công vào đội hát. Sau khi phân công thì trong lớp còn 12 bạn chưa được phân công. Hỏi số bạn được phân công vào đội múa là bao nhiêu bạn?\nA. 12\nB. 15\nC. 18\nD. 20",
+        "Answer": "C. 18",
+        "Source": "2-158",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một cửa hàng có 10450 m vải , cửa hàng đã bán trong 4 tuần , mỗi tuần bán được 770m vải. Hỏi cửa hàng còn lại bao nhiêu mét vải ?\nA. 7730\nB. 7370\nC. 7703\nD. 7037",
+        "Answer": "B. 7370",
+        "Source": "2-165",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Arithmetic"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Trong các số sau: 2,102; 2,245; 2,600; 2,150, số nào là số bé nhất:\nA. 2,102\nB. 2,245\nC. 2,600\nD. 2,150",
+        "Answer": "A. 2,102",
+        "Source": "2-168",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tính số lượng số hạng của dãy số sau: 1, 4, 7, 10, 13, 16, ..., 94, 97, 100, 103.\nA. 33\nB. 34\nC. 35\nD. 36",
+        "Answer": "C. 35",
+        "Source": "2-164",
+        "Difficulty Level": "L3",
+        "Categories": "1.B - Sequences, arithmetic progressions, geometric progressions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Kết quả của 2ha 3m^{2} =............... m^{2} là:\nA. 203\nB. 2 003\nC. 20 003\nD. 200 000 3",
+        "Answer": "C. 20 003",
+        "Source": "2-170",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Sáu đơn vị, tám phần mười, năm phần trăm, ba phần nghìn.\nA. 685,3\nB. 68,53\nC. 6,853\nD. 6,835",
+        "Answer": "C. 6,853",
+        "Source": "2-167",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Kết quả của 2kg 12g = ..........kg\nA. 2,012kg\nB. 5,23kg\nC. 5230kg\nD. 5023kg",
+        "Answer": "A. 2,012kg",
+        "Source": "2-172",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Mass"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số gồm 7 đơn vị và 65 phần nghìn là:\nA. 65007\nB. 7,65\nC. 0,765\nD. 7,065",
+        "Answer": "D. 7,065",
+        "Source": "2-166",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một hình tròn có đường kính 40cm. Tính diện tích hình tròn đó.\nA. 31,4 cm^{2}\nB. 62,8 cm^{2}\nC. 314 cm^{2}\nD. 1256,4cm^{2}",
+        "Answer": "D. 1256,4cm^{2}",
+        "Source": "2-169",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một hình tam giác có độ dài 3 cạnh lần lượt là 5cm; 7cm; 3cm. Chu vi hình tam giác là:\nA. 15cm\nB. 21cm\nC. 35cm\nD. 105cm",
+        "Answer": "A. 15cm",
+        "Source": "2-173",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Length"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Kết quả của phép tính 10 + 21 * 5 - 4,5 * 2 là bao nhiêu:\nA. 31\nB. 106\nC. 146\nD. 41",
+        "Answer": "B. 106",
+        "Source": "2-175",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Arithmetic"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một cửa hàng sáng bán được 3/10 số vải thì trong cửa hàng còn lại 56m vải. Hỏi ban đầu số mét vải có trong cửa hàng là bao nhiêu?\nA. 60m\nB. 70m\nC. 80m\nD. 90m",
+        "Answer": "C. 80m",
+        "Source": "2-174",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Cho một hình vuông có cạnh 3,5 cm, một hình chữ nhật có chiều dài 4 cm, chiều rộng 3 cm.\nA. Chu vi hình vuông bằng chu vi hình chữ nhật\nB. Diện tích hình vuông bằng diện tích hình chữ nhật\nC. Diện tích hình vuông nhỏ hơn diện tích hình chữ nhật\nD. Chu vi hình vuông lớn hơn chu vi hình chữ nhật",
+        "Answer": "A. Chu vi hình vuông bằng chu vi hình chữ nhật",
+        "Source": "2-177",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Điền số thích hợp: 3kg 12g =............kg\nA. 3002\nB. 3,02\nC. 3\nD. 3,012",
+        "Answer": "D. 3,012",
+        "Source": "2-181",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Mass"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm chiều dài một thửa ruộng hình chữ nhật biết S=632,4 m^{2} và chiều rộng bằng 18m\nA. 35,13m\nB. 35,24m\nC. 35,27m\nD. 3,46",
+        "Answer": "A. 35,13m",
+        "Source": "2-178",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tám đơn vị, sáu phần mười, năm phần nghìn viết được số thập phân là:\nA. 8,56\nB. 86,5\nC. 8,605\nD. 8,65",
+        "Answer": "C. 8,605",
+        "Source": "2-179",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Khi biểu diễn trên tia số, phân số gần số 0 nhất là:\nA. \\frac{1}{2}\nB. \\frac{1}{4}\nC. \\frac{1}{5}\nD. \\frac{1}{10}",
+        "Answer": "D. \\frac{1}{10}",
+        "Source": "2-180",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Kết quả của phép tính: 45,6 \\div 10\nA. 456\nB. 4,56\nC. 345\nD. 3,45",
+        "Answer": "B. 4,56",
+        "Source": "2-183",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm số bé nhất trong các số sau: 52,02; 9,11; 53,20; 32,05\nA. 52,02\nB. 53,20\nC. 9,11\nD. 32,05",
+        "Answer": "C. 9,11",
+        "Source": "2-184",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Lớp 4A có 12 bạn thích môn tiếng Việt, 18 bạn thích môn Toán. Trong số các bạn tích Tiếng Việt hoặc thích Toán có 8 bạn thích cả hai môn Tiếng Việt và Toán. Trong lớp vẫn còn có 10 bạn không thích môn nào (trong hai môn Tiếng Việt và Toán). Hỏi lớp 4A có bao nhiêu bạn tất cả?\nA. 7\nB. 12\nC. 37\nD. 32",
+        "Answer": "D. 32",
+        "Source": "2-176",
+        "Difficulty Level": "L3",
+        "Categories": "3 - Elements of statistics"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm số có 3 chữ số, biết rằng tổng các số hạng bằng số lớn nhất của số tự nhiên có 1 chữ số. Và số chữ số hàng trăm trừ đi chữ số hàng chục trừ thêm một thì bằng chữ số hàng đơn vị và bằng số tự nhiên nhỏ nhất.\nA. 540\nB. 630\nC. 450\nD. 730",
+        "Answer": "A. 540",
+        "Source": "2-171",
+        "Difficulty Level": "L3",
+        "Categories": "1.B - Equations and systems of equations"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Điền số thích hợp: 105 kg = ...... tấn\nA. 15\nB. 0,015\nC. 105\nD. 0,105",
+        "Answer": "D. 0,105",
+        "Source": "2-188",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Mass"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Giá trị của chữ số 5 trong số 23,150 là:\nA. \\frac{5}{10}\nB. \\frac{5}{100}\nC. \\frac{5}{1000}\nD. 5",
+        "Answer": "B. \\frac{5}{100}",
+        "Source": "2-182",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số thích hợp điền vào chỗ chấm là: 2 tấn 17kg =......kg\nA. 217\nB. 2017\nC. 2,017\nD. 2,17",
+        "Answer": "B. 2017",
+        "Source": "2-194",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Mass"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Hình lập phương có:\nA. Có 6 mặt đều là hình vuông, có 8 đỉnh và 12 cạnh bằng nhau\nB. Có 6 mặt đều là hình chữ nhật, có 8 đỉnh và 12 cạnh bằng nhau\nC. Có 6 mặt đều là hình chữ nhật, có 12 đỉnh và 8 cạnh\nD. Tất cả đáp án đều sai",
+        "Answer": "A. Có 6 mặt đều là hình vuông, có 8 đỉnh và 12 cạnh bằng nhau",
+        "Source": "2-187",
+        "Difficulty Level": "L1",
+        "Categories": "2.C - Solid Geometry"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm số dư trong phép chia  231,37 \\div 22, biết rằng phần thương chỉ lấy 2 chữ số thập phân:\nA. 0,15\nB. 0,015\nC. 1,5\nD. 15",
+        "Answer": "A. 0,15",
+        "Source": "2-191",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Phân số nào có thể chuyển thành phân số thập phân. Biết các phân số thập phân là các phân số có mẫu là: 10,100,1000...\nA. \\frac{5}{3}\nB. \\frac{5}{11}\nC. \\frac{11}{5}\nD. \\frac{5}{26}",
+        "Answer": "C. \\frac{11}{5}",
+        "Source": "2-185",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tính nhanh: 1,1 + 2,2 + 3,3 + 4,4 + 5,5 + 6,6 + 7,7 + 8,8 + 9,9 + 10,10\nA. 49,6\nB. 59,6\nC. 60,6\nD. 70,6",
+        "Answer": "C. 60,6",
+        "Source": "2-186",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số thích hợp viết vào chỗ chấm là:\n2cm^{2} 9mm^{2} =..... cm^{2}\nA. 29\nB. 2,09\nC. 2,9\nD. 2,009",
+        "Answer": "B. 2,09",
+        "Source": "2-192",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Kết quả của 19 giờ 48 phút \\div 9 là:\nA. 2 giờ 12 phút\nB. 2 giờ 15 phút\nC. 2 giờ 10 phút\nD. 2 giờ 02 phút",
+        "Answer": "A. 2 giờ 12 phút",
+        "Source": "2-190",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Time"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "3 ha 45dam^{2} = ……… dam^{2}\nA. 345dam^{2}\nB. 30045dam^{2}\nC. 3045dam^{2}\nD. 3450 dam^{2}",
+        "Answer": "B. 30045dam^{2}",
+        "Source": "2-195",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một lớp học có 40 học sinh, trong đó có 19 học sinh nữ. Tỷ số phần trăm giữa số học sinh nữ và tống số học sinh cả lớp là:\nA. 47,5%\nB. 4,75%\nC. 45,7%\nD. 52,5%",
+        "Answer": "A. 47,5%",
+        "Source": "2-189",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Chọn số lớn nhất trong các số sau: 724,36; 963,19; 512,47; 937,82.\nA. 512,47\nB. 724,36\nC. 963,19\nD. 937,82",
+        "Answer": "C. 963,19",
+        "Source": "2-197",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tính kết quả của: 56,47 \\times 0,01\nA. 0,5647\nB. 5,647\nC. 564,7\nD. 56,47",
+        "Answer": "A. 0,5647",
+        "Source": "2-198",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Viết số thích hợp vào chỗ chấm: 9 m^{3} 25dm^{3} = ....dm^{3}\nA. 9025\nB. 90025\nC. 900025\nD. 925",
+        "Answer": "A. 9025",
+        "Source": "2-199",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Volume"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số 0,085 dưới dạng tỉ số phần trăm là:\nA. 8,5%\nB. 850%\nC. 0,85%\nD. 85%",
+        "Answer": "A. 8,5%",
+        "Source": "2-193",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Giá  trị chữ số 8 trong số thập phân 12,384 là :\nA. \\frac{8}{10}\nB. \\frac{8}{100}\nC. \\frac{8}{1000}\nD. \\frac{8}{10000}",
+        "Answer": "B. \\frac{8}{100}",
+        "Source": "2-201",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một học sinh đã làm đúng 25 bài kiểm tra trong số tổng cộng 30 bài kiểm tra. Tỉ lệ phần trăm bài kiểm tra đúng của học sinh đó là:\nA. 15%\nB. 60%\nC. 75%\nD. 83.33%",
+        "Answer": "D. 83.33%",
+        "Source": "2-196",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "23,25 + 5,34 có kết quả là:\nA. 2,859\nB. 28,59\nC. 79,65\nD. 59,28",
+        "Answer": "B. 28,59",
+        "Source": "2-205",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Giá trị của chữ số 5 trong số 21,075 là:\nA. 5\nB. \\frac{5}{1000}\nC. \\frac{5}{100}\nD. \\frac{5}{10}",
+        "Answer": "B. \\frac{5}{1000}",
+        "Source": "2-202",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Trong số 410,920, giá trị của chữ số 2:\nA. \\frac{2}{1000}\nB. \\frac{2}{100}\nC. \\frac{2}{10}\nD. 2",
+        "Answer": "B. \\frac{2}{100}",
+        "Source": "2-206",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Khoảng thời gian từ 13 giờ kém 10 phút đến 21 giờ 30 phút là:\nA. 520 phút\nB. 500 phút\nC. 52 phút\nD. 50 phút",
+        "Answer": "A. 520 phút",
+        "Source": "2-207",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Time"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Phòng học có dạng hình hộp chữ nhật chiều dài 7m, chiều rộng 4,5m, chiều cao 3m. Người ta muốn sơn toàn bộ trần nhà và 4 bức tường. Biết tổng diện tích các cửa là 7,5m2, tính diện tích cần sơn.\nA. 83m^{2}\nB. 108m^{2}\nC. 93m^{2}\nD. 98m^{2}",
+        "Answer": "C. 93m^{2}",
+        "Source": "2-204",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Lớp 9A có 35 bạn, với 10 bạn nữ. Tỷ lệ bạn nữ so với bạn nam là bao nhiêu %\nA. 45%\nB. 65%\nC. 40%\nD. 75%",
+        "Answer": "C. 40%",
+        "Source": "2-203",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Hình vuông có chu vi 44m, cạnh của nó là:\nA. 12m\nB. 11m\nC. 16m\nD. 18m",
+        "Answer": "B. 11m",
+        "Source": "2-208",
+        "Difficulty Level": "L2",
+        "Categories": "2.B - Quadrilaterals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tổng của hai số là 222 và số thứ nhất gấp rưỡi số thứ hai. Vậy số thứ nhất là:\nA. 132,2\nB. 74,7\nC. 80\nD. 88,8",
+        "Answer": "A. 132,2",
+        "Source": "2-200",
+        "Difficulty Level": "L3",
+        "Categories": "1.B - Equations and systems of equations"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số 3,3 viết dưới dạng hỗn số là:\nA. 3 \\frac{3}{10}\nB. 6 \\frac{6}{10}\nC. 3 \\frac{3}{100}\nD. 6 \\frac{6}{100}",
+        "Answer": "A. 3 \\frac{3}{10}",
+        "Source": "2-212",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "An nghĩ ra một số, nếu lấy số đó chia cho 5 thì được thương là 5 và số dư là số dư lớn nhất. Hãy tìm số đó.\nA. 24\nB. 29\nC. 19\nD. 14",
+        "Answer": "B. 29",
+        "Source": "2-209",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Natural numbers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Ngày 29/2/2012 là thứ tư, vậy ngày 4/3/2012 là thứ mấy\nA. Thứ năm\nB. Thứ sáu\nC. Thứ bảy\nD. Chủ nhật",
+        "Answer": "D. Chủ nhật",
+        "Source": "2-211",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Time"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Mua 3kg gạo hết 30 000 đồng. Vậy mua 5,5 kg gạo hết số tiền là:\nA. 35 000 đồng\nB. 45 000 đồng\nC. 55 000 đồng\nD. 50 000 đồng",
+        "Answer": "C. 55 000 đồng",
+        "Source": "2-214",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Phân số thập phân \\frac{231}{1000} được viết dưới dạng số thập phân là:\nA. 23,1\nB. 0,231\nC. 2,31\nD. 0,0231",
+        "Answer": "B. 0,231",
+        "Source": "2-218",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Trung bình cộng của 3 phân số là \\frac{13}{36}. Trung bình cộng của phân số thứ nhất và phân số thứ hai là \\frac{5}{12}, của phân số thứ hai và phân số thứ ba là \\frac{7}{24}. Phân số thứ nhất, thứ 2, thứ 3 lần lượt là:\nA. \\frac{1}{2}, \\frac{1}{3}, \\frac{1}{4}\nB. \\frac{1}{2}, \\frac{1}{4}, \\frac{1}{6}\nC. \\frac{1}{3}, \\frac{1}{2}, \\frac{1}{4}\nD. \\frac{1}{6}, \\frac{1}{2}, \\frac{1}{4}",
+        "Answer": "B. \\frac{1}{2}, \\frac{1}{4}, \\frac{1}{6}",
+        "Source": "2-210",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Biểu thức 212,99 - 5,11 + 3,22 - 4 có kết quả là:\nA. 207,1\nB. 207,88\nC. 223,54\nD. 207,01",
+        "Answer": "A. 207,1",
+        "Source": "2-219",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một khối kim loại hình lập phương có thể tích 2,12cm^{3} nặng 18g. Vậy nếu một khối kim loại cùng chất có thể tích 3,0cm^{3} thì khối lượng khối kim loại này là bao nhiêu?\nA. 7,6 g\nB. 13,034 g\nC. 26,6 g\nD. 25,377 g",
+        "Answer": "D. 25,377 g",
+        "Source": "2-213",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Mass"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Giá trị của chữ số 8 trong số thập phân 71,268 là:\nA. 8\nB. \\frac{8}{10}\nC. \\frac{8}{100}\nD. \\frac{8}{1000}",
+        "Answer": "D. \\frac{8}{1000}",
+        "Source": "2-217",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "16 \\frac{7}{100}  viết dưới dạng số thập phân là:\nA. 16,7\nB. 16,70\nC. 16,07\nD. 16,007",
+        "Answer": "C. 16,07",
+        "Source": "2-221",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một cái hộp có 150 viên bi gồm 18 viên bi màu đỏ, 30 viên bi màu xanh, 45 viên bi màu tím và 57 viên bi màu vàng. Nếu không nhìn vào hộp, cần lấy ra bao nhiêu viên để chắc chắn rằng số bi lấy ra sẽ có đủ cả bốn màu?\nA. 94 viên\nB. 133 viên\nC. 110 viên\nD. 106 viên",
+        "Answer": "A. 94 viên",
+        "Source": "2-216",
+        "Difficulty Level": "L3",
+        "Categories": "3 - Elements of probability"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Các số X, III, XX, IX, VI, XI được sắp xếp theo thứ tự từ lớn đến bé là:\nA. XX, XI , IX ,X, VI, III\nB. XX, IX , XI ,X, VI, III\nC. XI, X , IX , VIII, V, II\nD. XI, X , IX , VIII, II, V",
+        "Answer": "A. XX, XI , IX ,X, VI, III",
+        "Source": "2-222",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Natural numbers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tính chu vi hình tròn có D= 4cm là:\nA. 12,56 cm\nB. 125,6 cm\nC. 1,256 cm\nD. 1256 cm",
+        "Answer": "A. 12,56 cm",
+        "Source": "2-220",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Length"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Thực hiện phép tính: 136,5 – (100 \\div 2,4) \\times 0,9\nA. 100,5\nB. 110,5\nC. 100\nD. 99",
+        "Answer": "D. 99",
+        "Source": "2-223",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Hình tròn có bán kính r= 6cm thì diện tích của 1/3 hình tròn là:\nA. 37,68cm^{2}\nB. 37,67cm^{2}\nC. 113,04cm^{2}\nD. 113cm^{2}",
+        "Answer": "A. 37,68cm^{2}",
+        "Source": "2-226",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Hỗn số 6 \\frac{9}{100} được viết thành số thập phân:\nA. 6,09\nB. 6,90\nC. 6,009\nD. 69",
+        "Answer": "A. 6,09",
+        "Source": "2-224",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Trong các số sau đây, số nào có chữ số hàng trăm là 2?\nA. 502\nB. 205\nC. 025\nD. 052",
+        "Answer": "B. 205",
+        "Source": "2-229",
+        "Difficulty Level": "L1",
+        "Categories": "1.A - Natural numbers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Vĩnh và Phúc cùng làm một công việc thì trong 16 giờ thì xong. Nếu Vĩnh làm 3 giờ và Phúc làm 6 giờ thì họ làm được 25% công việc. Hỏi mỗi người làm công việc đó một mình thì trong bao lâu sẽ hoàn thành xong công việc ?\nA. 16h\nB. 24h\nC. 36h\nD. 48h",
+        "Answer": "B. 24h",
+        "Source": "2-215",
+        "Difficulty Level": "L4",
+        "Categories": "1.B - Equations and systems of equations"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Thể tích của một hình hộp chữ nhật có chiều dài 8m, chiều rộng 3m, chiều cao 2m là:\nA. 24m^{3}\nB. 48m^{3}\nC. 32m^{3}\nD. 6m^{3}",
+        "Answer": "B. 48m^{3}",
+        "Source": "2-227",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Volume"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Kết quả phép cộng: 56,27 + 2,46\nA. 78,73\nB. 87,37\nC. 58,73\nD. 58,37",
+        "Answer": "C. 58,73",
+        "Source": "2-231",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm số tự nhiên x biết: 22,75 < x < 23,05\nA. X = 22,76\nB. X = 23\nC. X = 23, 05\nD. X = 22",
+        "Answer": "B. X = 23",
+        "Source": "2-230",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Natural numbers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Viết 5 \\frac{5}{100} dưới dạng số thập phân ta được:\nA. 5,005\nB. 5,05\nC. 5,03\nD. 5,003",
+        "Answer": "B. 5,05",
+        "Source": "2-228",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Dạng phân số thập phân của 2,2 là:\nA. \\frac{13}{100}\nB. \\frac{22}{10}\nC. \\frac{26}{50}\nD. \\frac{104}{200}",
+        "Answer": "B. \\frac{22}{10}",
+        "Source": "2-233",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Cho số thập phân 102,456. Nếu chuyển dấu phẩy sang bên phải 2 chữ số thì chữ số 4 thuộc hàng nào?\nA. Hàng chục\nB. Hàng đơn vị\nC. Hàn trăm\nD. Hàng nghìn",
+        "Answer": "A. Hàng chục",
+        "Source": "2-235",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Phép trừ 792,54 - 48,8 có két quả đúng là:\nA. 743,64\nB. 643, 64\nC. 743,74\nD. 707,65",
+        "Answer": "C. 743,74",
+        "Source": "2-241",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Dạng số thập phân của 2 \\frac{6}{1000}:\nA. 2,0006\nB. 2,006\nC. 2,06\nD. 2,6",
+        "Answer": "B. 2,006",
+        "Source": "2-236",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Phân số của hỗn số 2 \\frac{5}{9} là:\nA. \\frac{21}{5}\nB. \\frac{25}{3}\nC. \\frac{13}{10}\nD. \\frac{23}{9}",
+        "Answer": "D. \\frac{23}{9}",
+        "Source": "2-237",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "20,12 \\div 4,2 được:\nA. 4,49\nB. 4,781\nC. 4,4\nD. 4,39",
+        "Answer": "B. 4,781",
+        "Source": "2-239",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Trong các số dưới đây số nào gấp 6 lần chữ số hàng đơn vị của nó?\nA. 12\nB. 22\nC. 32\nD. 42",
+        "Answer": "A. 12",
+        "Source": "2-225",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Place Value"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Viết số thích hợp:  5 tấn 312 kg = … kg\nA. 513,2 kg\nB. 53,12 kg\nC. 5,312 kg\nD. 5312 kg",
+        "Answer": "D. 5312 kg",
+        "Source": "2-240",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Mass"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Giá trị của chữ x trong phép tính (x+2) x 5 = 565 là :\nA. 121\nB. 113\nC. 111\nD. 114",
+        "Answer": "C. 111",
+        "Source": "2-234",
+        "Difficulty Level": "L3",
+        "Categories": "1.B - Equations and systems of equations"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Năm nay tuổi bố gấp 8 lần tuổi bé Hạnh, tuổi mẹ gấp 7 lần tuổi bé Hạnh và bố hơn mẹ 4 tuổi. Vậy 2 năm sau Hạnh bao nhiêu tuổi?\nA. 4\nB. 3\nC. 5\nD. 6",
+        "Answer": "D. 6",
+        "Source": "2-232",
+        "Difficulty Level": "L3",
+        "Categories": "1.B - Equations and systems of equations"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "3,3 giờ = .....giờ......phút. Số thích hợp điền vào chỗ chấm là:\nA. 3 giờ 30 phút\nB. 3 giờ 15 phút\nC. 3 giờ 18 phút\nD. 3 giờ 12 ,phút",
+        "Answer": "C. 3 giờ 18 phút",
+        "Source": "2-238",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Time"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Giá trị của biểu thức: 201 \\div 1,5 - 2,5 - 0,9 là:\nA. 130,6\nB. 136,25\nC. 132,4\nD. 131,57",
+        "Answer": "A. 130,6",
+        "Source": "2-242",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Chữ số 8 trong số 24,289 thuộc hàng nào?\nA. Hàng chục\nB. Hàng phần mười\nC. Hàng phần trăm\nD. Hàng phần nghìn",
+        "Answer": "C. Hàng phần trăm",
+        "Source": "2-250",
+        "Difficulty Level": "L1",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm số còn thiếu trong dãy số sau 1, 2, 3, 4, 5, 6,  ... để trung bình cộng của dãy số được 7:\nA. 7\nB. 14\nC. 21\nD. 28",
+        "Answer": "D. 28",
+        "Source": "2-243",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số 3,175 chuyển thành phân số:\nA. \\frac{3175}{10}\nB. \\frac{3175}{1000}\nC. \\frac{317}{100}\nD. \\frac{3}{17}",
+        "Answer": "B. \\frac{3175}{1000}",
+        "Source": "2-246",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Biến đổi 4/10 * 100 dưới dạng số thập phân là:\nA. 0,04\nB. 0,4\nC. 4,0\nD. 40,0",
+        "Answer": "D. 40,0",
+        "Source": "2-244",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Ngày 27 tháng 5 năm 2016 là thứ sáu thì ngày 4 tháng 6 cùng năm đó là thứ mấy?\nA. Thứ tư\nB. Thứ năm\nC. Thứ sáu\nD. Thứ bảy",
+        "Answer": "D. Thứ bảy",
+        "Source": "2-247",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Time"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Biết 25% của số đó là 40, vậy số đó là:\nA. 45\nB. 80\nC. 160\nD. 25",
+        "Answer": "C. 160",
+        "Source": "2-245",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "1 tấn 8 kg = . . . . tấn. Số thích hợp để điền vào chỗ chấm là:\nA. 1,008\nB. 1,08\nC. 1,8\nD. 1,0008",
+        "Answer": "A. 1,008",
+        "Source": "2-252",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Mass"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Có 40 viên bi, trong đó có 17 viên bi hồng, 10 viên bi xám, 5 viên bi đen, 8 viên bi trắng. Như vậy 1/5 số viên bi có màu là:\nA. Hồng\nB. Xám\nC. Đen\nD. Trắng",
+        "Answer": "D. Trắng",
+        "Source": "2-249",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Viết dạng số thập phân của: năm mươi sáu phẩy bẩy mươi mốt\nA. 56,71\nB. 56,701\nC. 56,071\nD. 50,671",
+        "Answer": "A. 56,71",
+        "Source": "2-259",
+        "Difficulty Level": "L1",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "5% của 12 và số 12 là số nào? Khoanh vào đáp án đúng:\nA. 18\nB. 12.6\nC. 24\nD. 12.12",
+        "Answer": "B. 12.6",
+        "Source": "2-248",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Chữ số 8 trong số 6,008 có giá trị:\nA. 800\nB. \\frac{8}{10}\nC. \\frac{8}{100}\nD. \\frac{8}{1000}",
+        "Answer": "D. \\frac{8}{1000}",
+        "Source": "2-254",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "3 \\frac{1}{2} giờ = ……. phút\nA. 210 phút\nB. 120 phút\nC. 150 phút\nD. 180 phút",
+        "Answer": "A. 210 phút",
+        "Source": "2-253",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Time"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số nào là số lớn nhất trong 5,67; 5,76; 5,65; 5,675:\nA. 5,67\nB. 5,76\nC. 5,65\nD. 5,675",
+        "Answer": "B. 5,76",
+        "Source": "2-256",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tổng diện tích của hai viên gạch hình vuông có cạnh 40cm là:\nA. 1600cm^{2}\nB. 16cm^{2}\nC. 32cm^{2}\nD. 3200cm^{2}",
+        "Answer": "D. 3200cm^{2}",
+        "Source": "2-257",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số lớn nhất trong các số: 7,85; 6,58; 8,95; 7,99 là:\nA. 7,85\nB. 6.58\nC. 8,95\nD. 7,99",
+        "Answer": "C. 8,95",
+        "Source": "2-260",
+        "Difficulty Level": "L1",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Kết quả của (14:35)x10:\nA. 0,4\nB. 4\nC. 40\nD. 400",
+        "Answer": "B. 4",
+        "Source": "2-261",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tính diện tích của  miếng bìa hình tam giác có độ dài cạnh đáy 12dm, chiều cao bằng \\frac{1}{4} cạnh đáy\nA. 36 dm^{2}\nB. 9 dm^{2}\nC. 27 dm^{2}\nD. 18 dm^{2}",
+        "Answer": "D. 18 dm^{2}",
+        "Source": "2-267",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Kết quả của phép tính 1,6 \\times 10 + 8 \\div 4 là:\nA. 16\nB. 14\nC. 10\nD. 18",
+        "Answer": "D. 18",
+        "Source": "2-255",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Mua 12 quyển vở hết 36 000 đồng. Mua 33 quyển vở như thế hết số tiền là:\nA. 75 000 đồng\nB. 36 037 đồng\nC. 90 000 đồng\nD. 99 000 đồng",
+        "Answer": "D. 99 000 đồng",
+        "Source": "2-258",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một hình hộp chữ nhật có diện tích xung quanh là 4800 cm^2, trong đó chiều dài đáy là 40 cm và chiều rộng là 30 cm. Tính chiều cao của hình hộp chữ nhật đó.\nA. 34.28 dm\nB. 17,14 cm\nC. 17,14 dm\nD. 34,28 cm",
+        "Answer": "D. 34,28 cm",
+        "Source": "2-251",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Volume"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Giá trị của chữ số 6 trong số 862 495 là:\nA. 60 000\nB. 600 000\nC. 600\nD. 60",
+        "Answer": "A. 60 000",
+        "Source": "2-264",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Natural numbers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm số lớn nhất: 7,234; 7,432; 7,324; 7,243\nA. 7,432\nB. 7,324\nC. 7,243\nD. 7,234",
+        "Answer": "A. 7,432",
+        "Source": "2-268",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Lan có 9000 đồng, Mai có số tiền gấp 5 lần số tiền của Lan. Vậy số tiền Mai có là\nA. 8000 đồng\nB. 30000 đồng\nC. 45 000 đồng\nD. 48 000 đồng",
+        "Answer": "C. 45 000 đồng",
+        "Source": "2-269",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một ban công hình vuông có chu vi 362,4m. Hỏi cạnh của ban công là bao nhiêu?\nA. 3,6m\nB. 9,06m\nC. 9,6m\nD. 90,6m",
+        "Answer": "D. 90,6m",
+        "Source": "2-262",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Length"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một ô tô đi với vận tốc 60 km/h, tính quãng đường ô tô đi được trong 12 phút.\nA. 0,2 km\nB. 5km\nC. 720km\nD. 12km",
+        "Answer": "D. 12km",
+        "Source": "2-270",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Velocity"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Mua 3m vải hết 75 000 đồng. Hỏi mua 9m vải như thế hết bao nhiêu tiền?\nA. 25 000 đồng\nB. 125 000 đồng\nC. 45 090 đồng\nD. 225 000 đồng",
+        "Answer": "D. 225 000 đồng",
+        "Source": "2-266",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Phần thập phân của 212,12  là:\nA. 12\nB. \\frac{12}{10}\nC. \\frac{12}{100}\nD. \\frac{12}{1000}",
+        "Answer": "C. \\frac{12}{100}",
+        "Source": "2-274",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số thập phân của hỗn số 3 \\frac{6}{10} - 2 \\frac{1}{100} là\nA. 3,06\nB. 0,59\nC. 1,59\nD. 3,6",
+        "Answer": "C. 1,59",
+        "Source": "2-263",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Điền số thích hợp: 4kg 750g = ............ g.\nA. 4750\nB. 4075\nC. 47,5\nD. 4,75",
+        "Answer": "A. 4750",
+        "Source": "2-272",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tỉ số phần trăm của 90 và 120 + 130 + 20\nA. 45\nB. 33%\nC. 45%\nD. 45",
+        "Answer": "B. 33%",
+        "Source": "2-265",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một hình lập phương có cạnh là 160 dm. Hãy tính thể tích hình lập phương đó:\nA. 496 m^{3}\nB. 4096 m^{3}\nC. 256 m^{3}\nD. 2560 m^{3}",
+        "Answer": "B. 4096 m^{3}",
+        "Source": "2-278",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Volume"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tính % giữa 30 và 22:\nA. 73,33%\nB. 730%\nC. 73%\nD. 703%",
+        "Answer": "A. 73,33%",
+        "Source": "2-273",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Cho hình vuông có cạnh là 2,3cm. Chu vi của hình hình vuông đó là:\nA. 5,29cm\nB. 9,2dm 2,3cm\nC. 9,2cm\nD. 92cm",
+        "Answer": "C. 9,2cm",
+        "Source": "2-277",
+        "Difficulty Level": "L2",
+        "Categories": "2.B - Quadrilaterals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số ở giữa số 9990 và số 9997 là:\nA. 9908\nB. 9980\nC. 9995\nD. 9998",
+        "Answer": "C. 9995",
+        "Source": "2-276",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Integers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số thập phân của hỗn số 3 \\frac{1}{2} là\nA. 3,25\nB. 32,5\nC. 2,5\nD. 3,5",
+        "Answer": "D. 3,5",
+        "Source": "2-279",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Lãi suất tiết kiệm là 0,6 % một tháng. Một người gửi tiết kiệm là 10 000 000 đồng. Hỏi sau một tháng người đó nhận được tiền lãi và tiền gửi là bao nhiêu?\nA. 10 060 000\nB. 10 600 000\nC. 10 050 000\nD. 10 500 000",
+        "Answer": "A. 10 060 000",
+        "Source": "2-271",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Phân số \\frac{250}{20} được chuyển sang dạng số thập phân:\nA. 12,5\nB. 1,25\nC. 10,25\nD. 22,5",
+        "Answer": "A. 12,5",
+        "Source": "2-282",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tính diện tích toàn phần của một hình lập phương biết diện tích xung quanh là 216 m²:\nA. 144 m^{2}\nB. 216 m^{2}\nC. 125 m^{2}\nD. 324 m^{2}",
+        "Answer": "B. 216 m^{2}",
+        "Source": "2-275",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "6005 dm^{3} = … m^{3}\nA. 6,005 m^{3}\nB. 60 m^{3}\nC. 6 m^{3}\nD. 0,6 m^{3}",
+        "Answer": "A. 6,005 m^{3}",
+        "Source": "2-281",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Volume"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Biểu thức: \\frac{1}{2} + \\frac{3}{4} x \\frac{2}{5} có kết quả là:\nA. 4\nB. \\frac{4}{5}\nC. \\frac{8}{30}\nD. \\frac{2}{3}",
+        "Answer": "B. \\frac{4}{5}",
+        "Source": "2-285",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Diện tích của hình tròn có bán kính 6.5dm  là:\nA. 132,665 dm^{2}\nB. 113,04 dm^{2}\nC. 131,4 dm^{2}\nD. 150,24 dm^{2}",
+        "Answer": "A. 132,665 dm^{2}",
+        "Source": "2-283",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Năm 1899 thuộc thế kỉ nào sau đây?\nA. 12\nB. 19\nC. 20\nD. 21",
+        "Answer": "B. 19",
+        "Source": "2-286",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Time"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một nhà máy ngày một xuất được 1/2 số hàng và ngày hai xuất được thêm 2/9 số hàng ban đầu. Thì số hàng còn lại là 15 mặt hàng. Hỏi số hàng mà cửa hàng đã xuất đi trong ngày thứ 2 là bao nhiêu?\nA. 39 mặt hàng\nB. 42 mặt hàng\nC. 27 mặt hàng\nD. 12 mặt hàng",
+        "Answer": "D. 12 mặt hàng",
+        "Source": "2-280",
+        "Difficulty Level": "L4",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Thể tích của hình lập phương có cạnh 0.03m là:\nA. 27cm^{3}\nB. 0,27m^{2}\nC. 27m^{3}\nD. 2,7cm^{3}",
+        "Answer": "A. 27cm^{3}",
+        "Source": "2-287",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Volume"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "33 000  cm =.................km\nA. 33\nB. 0,33\nC. 1,33\nD. 330",
+        "Answer": "B. 0,33",
+        "Source": "2-290",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Length"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm chu vi của nửa hình tròn biết chiều dài đường kính là 4,5cm:\nA. 14,13cm\nB. 7,06cm\nC. 12,56cm\nD. 6,28cm",
+        "Answer": "B. 7,06cm",
+        "Source": "2-291",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Length"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Kết quả của phép tính 0,4 + 22,40 \\div 3,5 là:\nA. 2,49\nB. 2,9\nC. 6,4\nD. 6,8",
+        "Answer": "D. 6,8",
+        "Source": "2-293",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Phân số \\frac{1}{5} - \\frac{1}{8} + \\frac{1}{2} viết dưới dạng số thập phân là:\nA. 0,575\nB. 0,57\nC. 0,02\nD. 0,2",
+        "Answer": "A. 0,575",
+        "Source": "2-296",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Cô giáo phân công cho 2/5 số bạn trong lớp đi quét sân trường còn 1/3 số bạn đi dọn vệ sinh hành lang thì trong lớp còn 12 bạn vệ sinh lớp học. Hỏi số lượng học sinh được phân công đi dọn vệ sinh hành lang là bao nhiêu bạn?\nA. 12\nB. 15\nC. 18\nD. 20",
+        "Answer": "B. 15",
+        "Source": "2-289",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Năm đơn vị chín phần mười bốn phần trăm trừ cho hai đơn vị là:\nA. 5,094\nB. 5,94\nC. 3,94\nD. 3,094",
+        "Answer": "C. 3,94",
+        "Source": "2-284",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "2 phần trăm của 212 là:\nA. 12\nB. 12,5\nC. 4,2\nD. 4,24",
+        "Answer": "D. 4,24",
+        "Source": "2-292",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Trong các số có 3 chữ số dưới đây số nào khi cộng thêm với các chữ số hàng đơn vị, hàng chục, hàng trăm thì bằng 581.\nA. 543\nB. 550\nC. 555\nD. 565",
+        "Answer": "C. 555",
+        "Source": "2-288",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Natural numbers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Biết trung bình cộng của 2 số là 185 và số lớn hơn số bé 26 đơn vị. Tìm số lớn.\nA. 185\nB. 370\nC. 173\nD. 198",
+        "Answer": "D. 198",
+        "Source": "2-294",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm số tự nhiên x biết 98,69 - 1 < x < 99,4 - 1?\nA. X = 98\nB. X = 99\nC. X = 90\nD. X = 96",
+        "Answer": "A. X = 98",
+        "Source": "2-295",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Real numbers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm Y biết Y + 2,20 = 2,5 \\times  4:\nA. 10\nB. 10,18\nC. 10,22\nD. 7,80",
+        "Answer": "D. 7,80",
+        "Source": "2-297",
+        "Difficulty Level": "L3",
+        "Categories": "1.B - Equations and systems of equations"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Diện tích hình chữ nhật có chiều dài a và chiều rộng b được tính theo công thức:\nA. (a + b) \\times 2\nB. a \\times b\nC. a \\times b \\times 2\nD. a + b \\times 2",
+        "Answer": "B. a \\times b",
+        "Source": "2-304",
+        "Difficulty Level": "L1",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Cho hình thang có độ dài hai đáy là 18cm và 16cm; chiều cao là 15 cm. Hãy tính diện tích nửa hình thang.\nA. 225 cm^{2}\nB. 127,5 cm^{2}\nC. 255 cm^{2}\nD. 540 cm^{2}",
+        "Answer": "B. 127,5 cm^{2}",
+        "Source": "2-300",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một con chim đại bàng bay được 30 km trong 1 giờ. Chim sẻ bay được vận tốc bằng 2/5 đại bàng. Hỏi trong 3,5 giờ thì chim sẻ bay được:\nA. 12km\nB. 42km\nC. 4,2km\nD. 1,2km",
+        "Answer": "B. 42km",
+        "Source": "2-301",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Velocity"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một nhân viên cửa hàng buổi sáng bán được 1/2 số táo và buổi chiều bán thêm được 2/9 số táo so với số táo ban đầu thì còn lại 15 quả táo trong cửa hàng. Hỏi tổng số quả táo buổi sáng và buổi chiều bán được là bao nhiêu?\nA. 39\nB. 42\nC. 46\nD. 49",
+        "Answer": "A. 39",
+        "Source": "2-299",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Lớp 5A có 12 học sinh nam và 24 học sinh nữ. Phần trăm giữa số học sinh nam so với toàn bộ học sinh là:\nA. 20%\nB. 50%\nC. 25%\nD. 33%",
+        "Answer": "D. 33%",
+        "Source": "2-298",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số thập phân gồm có “Năm đơn vị, 2 phần trăm, bảy phần nghìn\" viết là:\nA. 5,27\nB. 5,027\nC. 5,007\nD. 7,05",
+        "Answer": "B. 5,027",
+        "Source": "2-305",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm số lớn nhất trong dãy: 2,345; 2,453; 2,534; 2,345\nA. 2,345\nB. 2,534\nC. 2,453\nD. 2,345",
+        "Answer": "B. 2,534",
+        "Source": "2-307",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Kết quả của biểu thức 7,33 : (1,7 + 2,1) – 1,5\nA. 3,01\nB. 7,49\nC. 1,87\nD. 0,427",
+        "Answer": "D. 0,427",
+        "Source": "2-302",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một người đi xe đạp được 40 km trong 2 giờ 30 phút. Tính vận tốc đạp xe của người đó.\nA. 25 km/giờ\nB. 16 km/giờ\nC. 30 km/giờ\nD. 20 km/giờ",
+        "Answer": "B. 16 km/giờ",
+        "Source": "2-306",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Velocity"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm một số biết 35% - 15% của số đó là 5,4 - 1,2 :\nA. 25\nB. 2\nC. 21\nD. 20",
+        "Answer": "C. 21",
+        "Source": "2-309",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số lớn hơn 3,75 và bé hơn tổng của 2,4 +1,8 là số:\nA. 3,57\nB. 3,69\nC. 3,9\nD. 4,2",
+        "Answer": "C. 3,9",
+        "Source": "2-303",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một mảnh vườn hình chữ nhật dài 44 m, rộng 12 m. Nếu người ta dùng 10 % diện tích mảnh đất để làm nhà thì phần đất còn lại là:\nA. 300 m^{2}\nB. 475,2 m^{2}\nC. 60,32 m^{2}\nD. 204 m^{2}",
+        "Answer": "B. 475,2 m^{2}",
+        "Source": "2-308",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Cái hộp có chiều dài 12cm, chiều rộng 3cm và chiểu cao 2,2cm, thể tích của cái hộp đó là:\nA. 30cm^{3}\nB. 35cm^{3}\nC. 59cm^{3}\nD. 79,2cm^{3}",
+        "Answer": "D. 79,2cm^{3}",
+        "Source": "2-310",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Volume"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số thập phân gồm 25 đơn vị, 9 phần mười và 7 phần nghìn là:\nA. 25,97\nB. 25,097\nC. 25,907\nD. 2,597",
+        "Answer": "C. 25,907",
+        "Source": "2-311",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Giá trị của biểu thức 8,5 + 6,5- (10-3,3) + 1 là\nA. 8,3\nB. 7,3\nC. 9,3\nD. 0,7",
+        "Answer": "C. 9,3",
+        "Source": "2-312",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Điền số thích hợp: 2m^{3}85dm^{3} = …………………m^{3}.\nA. 2,385\nB. 2,085\nC. 285\nD. 23,85",
+        "Answer": "B. 2,085",
+        "Source": "2-313",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Volume"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Hình chữ nhật ABCD có chiều dài bằng 16cm, chiều rộng bằng 1/4 chiều dài. Tính diện tích của hình chữ nhật đó.\nA. 6,4 m^{2}\nB. 12,8 m^{2}\nC. 128 cm^{2}\nD. 64 cm^{2}",
+        "Answer": "D. 64 cm^{2}",
+        "Source": "2-316",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Các số X, III, XIX, XX, VII được sắp xếp theo thứ tự từ bé đến lớn:\nA. X, XIX,XX, VII, III\nB. III, XIX,VII, X,XX\nC. III,VII,X,XIX,XX\nD. III,X,VII,XIX,XX",
+        "Answer": "C. III,VII,X,XIX,XX",
+        "Source": "2-317",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Integers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Tìm chữ số x, biết: 5,5 \\times x < 5,471\nA. X = 8\nB. X = 7\nC. X = 1\nD. X = 0",
+        "Answer": "D. X = 0",
+        "Source": "2-314",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Đổi: 2kg 15g =  ............g\nA. 215g\nB. 2150g\nC. 2015g\nD. 2105g",
+        "Answer": "C. 2015g",
+        "Source": "2-320",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Mass"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Điền số thích hợp: 10m^{2} 6dm^{2} =........m^{2} là:\nA. 10\nB. 10,06\nC. 1006\nD. 10",
+        "Answer": "B. 10,06",
+        "Source": "2-318",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Chữ số 6 trong số 15,306 thuộc hàng nào?\nA. Hàng đơn vị\nB. Hàng trăm\nC. Hàng phần trăm\nD. Hàng phần nghìn",
+        "Answer": "D. Hàng phần nghìn",
+        "Source": "2-319",
+        "Difficulty Level": "L1",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số thập phân có 2 thành phần:\nA. Phần nguyên đứng trước dấu phẩy, phần thập phân đứng sau dấu phẩy\nB. Phần nguyên đứng sau dấu phẩy, phần thập phân đứng trước dấu phẩy\nC. Phần nguyên đứng trước dấu phẩy, phần phân số thập phân đứng sau dấu phẩy\nD. Phần nguyên đứng sau dấu phẩy, phần phân số đứng trước dấu phẩy",
+        "Answer": "A. Phần nguyên đứng trước dấu phẩy, phần thập phân đứng sau dấu phẩy",
+        "Source": "2-324",
+        "Difficulty Level": "L1",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một ôtô có vận tốc 60 km/giờ. Vậy vận tốc của ô tô khi đổi sang mét/phút là bao nhiêu?\nA. 1000 m/phút\nB. 805 m/phút\nC. 510 m/phút\nD. 5100 m/phút",
+        "Answer": "A. 1000 m/phút",
+        "Source": "2-323",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Velocity"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Lớp 5A có số bạn đi thi học sinh giỏi môn toán là 2/11, và số bạn thi học sinh giỏi môn tiếng Việt là 1/4 sau khi các bạn đi thi học sinh giỏi thì trong lớp còn 25 bạn. Hỏi tổng số bạn đi thi học sinh giỏi môn toán và tiếng Việt là bao nhiêu bạn?\nA. 13\nB. 15\nC. 17\nD. 19",
+        "Answer": "B. 15",
+        "Source": "2-315",
+        "Difficulty Level": "L4",
+        "Categories": "1.A - Fractions"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Kết quả của 2km 17m = …………km là:\nA. 2,017 km\nB. 2,17 km\nC. 0,217 km\nD. 21,17 km",
+        "Answer": "A. 2,017 km",
+        "Source": "2-325",
+        "Difficulty Level": "L2",
+        "Categories": "2.D - Length"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số dư trong phép chia 12328 : 105 sau khi cộng với 7 là bao nhiêu:\nA. 20\nB. 30\nC. 40\nD. 50",
+        "Answer": "D. 50",
+        "Source": "2-322",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Integers"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Hỗn số 17 \\frac{3}{10} viết dưới dạng số thập phân là :\nA. 1,73\nB. 17,3\nC. 7,13\nD. 7,03",
+        "Answer": "B. 17,3",
+        "Source": "2-327",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Số \\frac{3}{25} + \\frac{1}{100} viết dưới dạng số thập phân là:\nA. 0,13\nB. 0,15\nC. 0,001\nD. 0,12",
+        "Answer": "A. 0,13",
+        "Source": "2-326",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Một hình tròn có đường kính 3m. Diện tích nửa hình tròn đó là:\nA. 7,065m^{2}\nB. 8,54m^{2}\nC. 70,65m^{2}\nD. 3,5325m^{2}",
+        "Answer": "D. 3,5325m^{2}",
+        "Source": "2-328",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Giá trị của chữ số 8 trong số thập phân 50,289:\nA. 8\nB. \\frac{8}{10}\nC. \\frac{8}{100}\nD. 80",
+        "Answer": "C. \\frac{8}{100}",
+        "Source": "2-329",
+        "Difficulty Level": "L2",
+        "Categories": "1.A - Decimals"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Trên bảng ghi các số 15, 18, 21, 24, 27, 30, 33, 36. Bạn Mạnh xóa đi một số thì thấy trung bình cộng của các số trên bảng còn lại kết thúc bằng chữ số 4. Hãy cho biết Mạnh xóa đi số nào?\nA. 36\nB. 33\nC. 24\nD. 18",
+        "Answer": "C. 24",
+        "Source": "2-321",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Diện tích hình tròn có bán kính 10 cm là:\nA. 3,14 dm^{2}\nB. 3,14 cm^{2}\nC. 0,314 dm^{2}\nD. 34,1 cm^{2}",
+        "Answer": "B. 3,14 cm^{2}",
+        "Source": "2-330",
+        "Difficulty Level": "L3",
+        "Categories": "2.D - Area"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Người thứ nhất làm xong công việc trong 4 giờ, người thứ hai làm xong công việc trong 8 giờ. Thời gian hoàn thành nếu hai người cùng làm là:\nA. 20 giờ\nB. 9 giờ\nC. \\frac{20}{9} giờ\nD. \\frac{8}{3} giờ",
+        "Answer": "D. \\frac{8}{3} giờ",
+        "Source": "2-332",
+        "Difficulty Level": "L3",
+        "Categories": "1.A - Ratios, percentages, proportions, and equal ratio sequences"
+    },
+    {
+        "Type": "Multi Choice",
+        "Question": "Có bao nhiêu số có 2 chữ số mà số đó gấp 4 lần tổng 2 chữ số của nó?\nA. 2\nB. 3\nC. 4\nD. 5",
+        "Answer": "C. 4",
+        "Source": "2-331",
+        "Difficulty Level": "L3",
+        "Categories": "1.B - Equations and systems of equations"
+    }
+]

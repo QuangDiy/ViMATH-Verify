@@ -56,6 +56,6 @@ results/
 tmp/
 
 # Data
-data/
-example/
-output/
+# data/
+# example/
+# output/

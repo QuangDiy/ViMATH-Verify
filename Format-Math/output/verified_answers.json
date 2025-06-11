@@ -1,0 +1,37 @@
+[
+  {
+    "Explanation": "Vì số kẹo của Lan chia đều cho 5 bạn hoặc 2 bạn thì cũng vừa hết, nên số kẹo đó phải là một số chia hết cho cả 2 và 5. Số chia hết cho cả 2 và 5 là số có tận cùng là 0, hay nói cách khác là số tròn chục. Đề bài cho biết số kẹo nhiều hơn 20 và ít hơn 40. Các số tròn chục nằm giữa 20 và 40 là 30. Đáp án là \boxed{30}.",
+    "Answer": "30",
+    "Type": "ExprExtractionConfig",
+    "Original_Question": "Lan có một số kẹo ít hơn 40 cái nhưng nhiều hơn 20 cái. Nếu Lan chia đều số kẹo cho 5 bạn hoặc chia đều cho 2 bạn thì cũng vừa hết. Hỏi Lan có bao nhiêu cái kẹo?",
+    "Original_Explanation": "Vì số kẹo của Lan chia đều cho 5 bạn hoặc 2 bạn thì cũng vừa hết, nên số kẹo đó phải là một số chia hết cho cả 2 và 5.  Số chia hết cho cả 2 và 5 là số có tận cùng là 0, hay nói cách khác là số tròn chục.\n\nĐề bài cho biết số kẹo nhiều hơn 20 và ít hơn 40.  Các số tròn chục nằm giữa 20 và 40 là 30.\n\nVậy Lan có 30 cái kẹo."
+  },
+  {
+    "Explanation": "Số dư ban đầu trong tài khoản là -1,252 tỉ đồng, nghĩa là chủ xưởng đang nợ ngân hàng 1,252 tỉ đồng. Sau khi trả được một nửa số nợ, số tiền nợ còn lại là: 1,252 tỉ đồng / 2 = 0,626 tỉ đồng. Vì chủ xưởng vẫn còn nợ nên số dư trong tài khoản vẫn là số âm. Số dư trong tài khoản sau khi trả một nửa số nợ là -0,626 tỉ đồng. Đáp án đúng là \boxed{-0,626}.",
+    "Answer": "-0,626",
+    "Type": "ExprExtractionConfig",
+    "Original_Question": "Tài khoản vay ngân hàng của một chủ xưởng gỗ đang có số dư là -1,252 tỉ đồng (tức là chủ xưởng đang nợ ngân hàng 1,252 tỉ đồng). Sau khi chủ xưởng trả được một nửa số nợ, số dư trong tài khoản là bao nhiêu tỉ đồng?",
+    "Original_Explanation": "Số dư ban đầu trong tài khoản là -1,252 tỉ đồng, nghĩa là chủ xưởng đang nợ ngân hàng 1,252 tỉ đồng.  Sau khi trả được một nửa số nợ, số tiền nợ còn lại là: 1,252 tỉ đồng / 2 = 0,626 tỉ đồng. Vì chủ xưởng vẫn còn nợ nên số dư trong tài khoản vẫn là số âm.  Vậy số dư trong tài khoản sau khi trả một nửa số nợ là -0,626 tỉ đồng."
+  },
+  {
+    "Explanation": "Ta có phương trình chuyển động của vật rơi tự do với vận tốc ban đầu $v_0$ là: $s = v_0t + \frac{1}{2}gt^2$. Theo đề bài, vật rơi với vận tốc ban đầu $v_0 = 12$ m/s, gia tốc trọng trường $g = 9,8$ m/s² và thời gian rơi là $t = 7$ s. Thay các giá trị này vào phương trình, ta có: $s = (12)(7) + \frac{1}{2}(9,8)(7^2)$, $s = 84 + \frac{1}{2}(9,8)(49)$, $s = 84 + (4,9)(49)$, $s = 84 + 240,1$, $s = 324,1$ m. Đáp án đúng là A.",
+    "Answer": "A",
+    "Type": "StringExtractionConfig",
+    "Original_Question": "Một vật rơi tự do theo phương thẳng đứng từ một độ cao nào đó với vận tốc ban đầu hướng xuống là 12 m/s.  Biết gia tốc trọng trường g = 9,8 m/s². Hỏi sau 7 giây kể từ lúc bắt đầu rơi, vật đã rơi được quãng đường bao nhiêu mét? Chọn gốc tọa độ tại vị trí vật bắt đầu rơi, chiều dương hướng xuống, gốc thời gian là lúc vật bắt đầu rơi.\n\nA. 324,1 m\nB. 480,2 m\nC. 240,1 m\nD. 564,2 m",
+    "Original_Explanation": "Ta có phương trình chuyển động của vật rơi tự do với vận tốc ban đầu $v_0$ là:\n$s = v_0t + \\frac{1}{2}gt^2$\n\nTheo đề bài, vật rơi với vận tốc ban đầu $v_0 = 12$ m/s, gia tốc trọng trường $g = 9,8$ m/s² và thời gian rơi là $t = 7$ s. Thay các giá trị này vào phương trình, ta có:\n\n$s = (12)(7) + \\frac{1}{2}(9,8)(7^2)$\n$s = 84 + \\frac{1}{2}(9,8)(49)$\n$s = 84 + (4,9)(49)$\n$s = 84 + 240,1$\n$s = 324,1$ m\n\nVậy sau 7 giây, vật đã rơi được quãng đường 324,1 m.\n\nDo đó, đáp án đúng là A."
+  },
+  {
+    "Explanation": "Số lít dầu ở thùng thứ hai là: 13005 × 2 = 26010 (lít). Tổng số lít dầu ở cả hai thùng là: 13005 + 26010 = 39015 (lít). Đáp án là \boxed{39015}.",
+    "Answer": "39015",
+    "Type": "ExprExtractionConfig",
+    "Original_Question": "Thùng thứ nhất chứa 13005 lít dầu. Thùng thứ hai chứa gấp đôi số dầu của thùng thứ nhất. Hỏi cả hai thùng chứa bao nhiêu lít dầu?",
+    "Original_Explanation": "Số lít dầu ở thùng thứ hai là:\n\n13005 × 2 = 26010 (lít)\n\nTổng số lít dầu ở cả hai thùng là:\n\n13005 + 26010 = 39015 (lít)\n\nVậy cả hai thùng chứa 39015 lít dầu."
+  },
+  {
+    "Explanation": "Chiều rộng của mảnh vườn là: $16 \\times \\frac{1}{2} = 8$ (cm). Diện tích mảnh vườn là: $16 \\times 8 = 128$ (cm²). Đáp án là \\boxed{128}.",
+    "Answer": "128",
+    "Type": "ExprExtractionConfig",
+    "Original_Question": "Một mảnh vườn hình chữ nhật có chiều dài 16cm và chiều rộng bằng $\\frac{1}{2}$ chiều dài. Tính diện tích mảnh vườn.",
+    "Original_Explanation": "**Bài giải:**\n\nChiều rộng của mảnh vườn là:\n\n$16 \\times \\frac{1}{2} = 8$ (cm)\n\nDiện tích mảnh vườn là:\n\n$16 \\times 8 = 128$ (cm²)\n\n**Đáp số:** 128 cm²"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "Explanation": "Để lập được số có 4 chữ số, chữ số đầu tiên không thể là 0. Ta xem xét các trường hợp cho chữ số hàng nghìn: \n\n* **Chữ số hàng nghìn là 9:** Có thể lập được các số: 9052, 9025, 9502, 9520, 9205, 9250.\n* **Chữ số hàng nghìn là 5:** Có thể lập được các số: 5092, 5029, 5209, 5290, 5902, 5920.\n* **Chữ số hàng nghìn là 2:** Có thể lập được các số: 2059, 2095, 2509, 2590, 2905, 2950.\n\nTất cả các số có 4 chữ số khác nhau được lập từ các chữ số 9, 0, 5, 2 là: $9052, 9025, 9502, 9520, 9205, 9250, 5092, 5029, 5209, 5290, 5902, 5920, 2059, 2095, 2509, 2590, 2905, 2950$. Tổng cộng có 18 số. Đáp án là \boxed{18}.",
+    "Answer": "$9052, 9025, 9502, 9520, 9205, 9250, 5092, 5029, 5209, 5290, 5902, 5920, 2059, 2095, 2509, 2590, 2905, 2950$",
+    "Type": "LatexExtractionConfig",
+    "Original_Question": "Cho các chữ số: 9, 0, 5, 2. Hãy viết tất cả các số có 4 chữ số khác nhau được lập từ các chữ số đã cho.",
+    "Original_Explanation": "Để lập được số có 4 chữ số, chữ số đầu tiên không thể là 0.  Ta có các trường hợp sau:\n\n* **Chữ số hàng nghìn là 9:**  Có thể lập được các số: 9052, 9025, 9502, 9520, 9205, 9250.\n* **Chữ số hàng nghìn là 5:**  Có thể lập được các số: 5092, 5029, 5209, 5290, 5902, 5920.\n* **Chữ số hàng nghìn là 2:**  Có thể lập được các số: 2059, 2095, 2509, 2590, 2905, 2950.\n\nVậy tất cả các số có 4 chữ số khác nhau được lập từ các chữ số 9, 0, 5, 2 là: 9052, 9025, 9502, 9520, 9205, 9250, 5092, 5029, 5209, 5290, 5902, 5920, 2059, 2095, 2509, 2590, 2905, 2950.  Tổng cộng có 18 số."
+  }
+]
